@@ -19,9 +19,6 @@ public class PlayerRun : MonoBehaviour
             Vector3 newVelocity = rigid.velocity;
             newVelocity.x = Input.GetAxis("Horizontal") * Movespeed;
             rigid.velocity = newVelocity;
-            
         }
-        
-        
     }
 }

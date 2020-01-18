@@ -5,7 +5,7 @@ using UnityEngine;
 public class RunJumping : MonoBehaviour
 {
     Rigidbody rigid;
-    public float Jumppower = 10;
+    public float Jumppower;
     private float Movespeed = 4;
     private float currentSpeed;
     private float duration;
