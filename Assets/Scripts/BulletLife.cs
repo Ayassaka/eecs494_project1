@@ -7,7 +7,9 @@ public class BulletLife : MonoBehaviour
     public float lifeTime;
     void Start()
     {
-        Destroy(this.gameObject, lifeTime);
+        if (!PlayerState.instance.isLongbeam) {
+            Destroy(this.gameObject, lifeTime);
+        }
     }
 
     // Update is called once per frame
