@@ -5,3 +5,4 @@
 - run jump cannot fire forward
 - need to add frames to animations and configure scripts for animator
 - jump height control?
+- knockback...
