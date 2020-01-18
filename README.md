@@ -6,3 +6,4 @@
 - need to add frames to animations and configure scripts for animator
 - jump height control?
 - knockback...
+- cannot morph back in air
