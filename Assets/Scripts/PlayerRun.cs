@@ -15,8 +15,13 @@ public class PlayerRun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 newVelocity = rigid.velocity;
-        newVelocity.x = Input.GetAxis("Horizontal") * Movespeed;
-        rigid.velocity = newVelocity;
+        if (!PlayerState.instance.isRunjump) {
+            Vector3 newVelocity = rigid.velocity;
+            newVelocity.x = Input.GetAxis("Horizontal") * Movespeed;
+            rigid.velocity = newVelocity;
+            
+        }
+        
+        
     }
 }

@@ -19,6 +19,8 @@ public class PlayerWeapon : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.X)) {
             GameObject bulletInstance = GameObject.Instantiate(bulletPrefab);
+            PlayerState.instance.missile--;
+            PlayerState.instance.missiletext.text = "missile:" + PlayerState.instance.missile.ToString();
             if (playerDirection.isLookingUp()) {
                 bulletInstance.transform.position = firePostionUpward.position;
                 bulletInstance.GetComponent<Rigidbody>().velocity = new Vector3(0, bulletSpeed, 0);
