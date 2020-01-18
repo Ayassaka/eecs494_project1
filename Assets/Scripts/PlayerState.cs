@@ -10,15 +10,14 @@ public class PlayerState : MonoBehaviour
     bool isMorphed = false;
     void Update()
     {
-        Debug.Log("Grounded=" + isGrounded() + ", Stuck=" + isStuck());
         if (!isMorphed) {
-            if (Input.GetKeyDown(KeyCode.DownArrow) && isGrounded()) {
+            if (Input.GetKeyDown(KeyCode.DownArrow) && GetComponentInChildren<PlayerJump>().isGrounded()) {
                 standing.SetActive(false);
                 morphed.SetActive(true);
                 isMorphed = true;
             }
         } else {
-            if ((Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.UpArrow)) && (!isGrounded() || !isStuck())) {
+            if ((Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.UpArrow)) && (!isMorphedGrounded() || !isMorphedStuck())) {
                 standing.SetActive(true);
                 morphed.SetActive(false);
                 isMorphed = false;
@@ -26,7 +25,7 @@ public class PlayerState : MonoBehaviour
         }
     }
 
-    bool isGrounded() {
+    bool isMorphedGrounded() {
         Collider col = this.GetComponentInChildren<Collider>();
         Ray ray = new Ray(col.bounds.center, Vector3.down);
         float radius = col.bounds.extents.x - 0.05f;
@@ -34,7 +33,7 @@ public class PlayerState : MonoBehaviour
         return Physics.SphereCast(ray, radius, fullDistance);
     }
 
-    bool isStuck() {
+    bool isMorphedStuck() {
         Collider col = this.GetComponentInChildren<Collider>();
         Ray ray = new Ray(col.bounds.center, Vector3.up);
         float radius = col.bounds.extents.x - 0.05f;

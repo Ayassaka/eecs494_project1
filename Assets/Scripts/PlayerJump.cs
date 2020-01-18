@@ -22,7 +22,7 @@ public class PlayerJump : MonoBehaviour
         rigid.velocity = newVelocity;
         
     }
-    bool isGrounded() {
+    public bool isGrounded() {
         Collider col = this.GetComponent<Collider>();
         Ray ray = new Ray(col.bounds.center, Vector3.down);
         float radius = col.bounds.extents.x - 0.05f;
