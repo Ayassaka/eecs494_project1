@@ -1,0 +1,4627 @@
+fileFormatVersion: 2
+guid: b9623b68b1a391148a8ceea3b56240db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4226737053371517128
+    second: NES - Metroid - Items & Objects_0
+  - first:
+      213: 7098193404362549119
+    second: NES - Metroid - Items & Objects_1
+  - first:
+      213: -872600428503655252
+    second: NES - Metroid - Items & Objects_2
+  - first:
+      213: 7443819239942586163
+    second: NES - Metroid - Items & Objects_3
+  - first:
+      213: 8805557590102939281
+    second: NES - Metroid - Items & Objects_4
+  - first:
+      213: 870662784209334798
+    second: NES - Metroid - Items & Objects_5
+  - first:
+      213: -3833293557570392581
+    second: NES - Metroid - Items & Objects_6
+  - first:
+      213: -479865587470428009
+    second: missilePickUp1
+  - first:
+      213: 904961598930622951
+    second: missilPickUp2
+  - first:
+      213: 4511284862164361329
+    second: NES - Metroid - Items & Objects_9
+  - first:
+      213: -250173685935244540
+    second: NES - Metroid - Items & Objects_10
+  - first:
+      213: 2315101361581441176
+    second: NES - Metroid - Items & Objects_11
+  - first:
+      213: -194982832379708253
+    second: NES - Metroid - Items & Objects_12
+  - first:
+      213: -8879885019924593796
+    second: NES - Metroid - Items & Objects_13
+  - first:
+      213: -278208015501175955
+    second: NES - Metroid - Items & Objects_14
+  - first:
+      213: -2768712376243903876
+    second: NES - Metroid - Items & Objects_15
+  - first:
+      213: -8112142812561129760
+    second: NES - Metroid - Items & Objects_16
+  - first:
+      213: -8073802449268619212
+    second: NES - Metroid - Items & Objects_17
+  - first:
+      213: 5523516917903751359
+    second: NES - Metroid - Items & Objects_18
+  - first:
+      213: -8955505230506151712
+    second: NES - Metroid - Items & Objects_19
+  - first:
+      213: -1916892636093242595
+    second: NES - Metroid - Items & Objects_20
+  - first:
+      213: -1420423710851513930
+    second: NES - Metroid - Items & Objects_21
+  - first:
+      213: -8520919685736465781
+    second: NES - Metroid - Items & Objects_22
+  - first:
+      213: 8006278606336166055
+    second: NES - Metroid - Items & Objects_23
+  - first:
+      213: -8696004033544847102
+    second: NES - Metroid - Items & Objects_24
+  - first:
+      213: -5839436575380969921
+    second: NES - Metroid - Items & Objects_25
+  - first:
+      213: -8180409114481881989
+    second: NES - Metroid - Items & Objects_26
+  - first:
+      213: -8739729832282976550
+    second: NES - Metroid - Items & Objects_27
+  - first:
+      213: -1539757460571194154
+    second: NES - Metroid - Items & Objects_28
+  - first:
+      213: 5051360232224870757
+    second: NES - Metroid - Items & Objects_29
+  - first:
+      213: -8213176959078526889
+    second: NES - Metroid - Items & Objects_30
+  - first:
+      213: 5836668117076579062
+    second: NES - Metroid - Items & Objects_31
+  - first:
+      213: 8227472825274541166
+    second: NES - Metroid - Items & Objects_32
+  - first:
+      213: 2384614390742357177
+    second: NES - Metroid - Items & Objects_33
+  - first:
+      213: -56097674552340350
+    second: NES - Metroid - Items & Objects_34
+  - first:
+      213: -4616922014430800790
+    second: NES - Metroid - Items & Objects_35
+  - first:
+      213: 5921277008222798328
+    second: NES - Metroid - Items & Objects_36
+  - first:
+      213: 6111229610792706917
+    second: NES - Metroid - Items & Objects_37
+  - first:
+      213: -4803634065843271882
+    second: NES - Metroid - Items & Objects_38
+  - first:
+      213: -5296895619574411571
+    second: NES - Metroid - Items & Objects_39
+  - first:
+      213: -5370993171874882774
+    second: NES - Metroid - Items & Objects_40
+  - first:
+      213: -6858103743017388827
+    second: NES - Metroid - Items & Objects_41
+  - first:
+      213: 2438023195954022356
+    second: NES - Metroid - Items & Objects_42
+  - first:
+      213: 3543492506512948593
+    second: NES - Metroid - Items & Objects_43
+  - first:
+      213: -8670560950219461313
+    second: NES - Metroid - Items & Objects_44
+  - first:
+      213: -7031048841650176239
+    second: NES - Metroid - Items & Objects_45
+  - first:
+      213: 2076574254415945277
+    second: NES - Metroid - Items & Objects_46
+  - first:
+      213: 6473145653962323512
+    second: NES - Metroid - Items & Objects_47
+  - first:
+      213: 2444571401018233288
+    second: NES - Metroid - Items & Objects_48
+  - first:
+      213: 4433761037130352170
+    second: NES - Metroid - Items & Objects_49
+  - first:
+      213: 7269357081858078514
+    second: NES - Metroid - Items & Objects_50
+  - first:
+      213: 9180627518196839773
+    second: NES - Metroid - Items & Objects_51
+  - first:
+      213: 804879044691867387
+    second: NES - Metroid - Items & Objects_52
+  - first:
+      213: 2312514906539951594
+    second: NES - Metroid - Items & Objects_53
+  - first:
+      213: -180995569918116151
+    second: NES - Metroid - Items & Objects_54
+  - first:
+      213: -3109725447022481579
+    second: NES - Metroid - Items & Objects_55
+  - first:
+      213: -5460366598461694231
+    second: NES - Metroid - Items & Objects_56
+  - first:
+      213: 934897303933693718
+    second: NES - Metroid - Items & Objects_57
+  - first:
+      213: -8512601999269284868
+    second: NES - Metroid - Items & Objects_58
+  - first:
+      213: 2862548607069485901
+    second: NES - Metroid - Items & Objects_59
+  - first:
+      213: -6785995049447118616
+    second: NES - Metroid - Items & Objects_60
+  - first:
+      213: 7914039572686216164
+    second: NES - Metroid - Items & Objects_61
+  - first:
+      213: 2265699166663076146
+    second: NES - Metroid - Items & Objects_62
+  - first:
+      213: -8939634330888364258
+    second: NES - Metroid - Items & Objects_63
+  - first:
+      213: -6069279540792003630
+    second: NES - Metroid - Items & Objects_64
+  - first:
+      213: 4024918732683345218
+    second: NES - Metroid - Items & Objects_65
+  - first:
+      213: 5168642253317521866
+    second: NES - Metroid - Items & Objects_66
+  - first:
+      213: -3694477377359700818
+    second: NES - Metroid - Items & Objects_67
+  - first:
+      213: 7673428397531884154
+    second: NES - Metroid - Items & Objects_68
+  - first:
+      213: -4294956790416041029
+    second: NES - Metroid - Items & Objects_69
+  - first:
+      213: -5716759736751200373
+    second: NES - Metroid - Items & Objects_70
+  - first:
+      213: 6309312455908273603
+    second: NES - Metroid - Items & Objects_71
+  - first:
+      213: -4128814072834678709
+    second: NES - Metroid - Items & Objects_72
+  - first:
+      213: -7345300202393305535
+    second: NES - Metroid - Items & Objects_73
+  - first:
+      213: -2800598081115585652
+    second: NES - Metroid - Items & Objects_74
+  - first:
+      213: 6532621478578922621
+    second: NES - Metroid - Items & Objects_75
+  - first:
+      213: 4411817156206534051
+    second: NES - Metroid - Items & Objects_76
+  - first:
+      213: 468627584642405308
+    second: NES - Metroid - Items & Objects_77
+  - first:
+      213: 5552082407979715397
+    second: NES - Metroid - Items & Objects_78
+  - first:
+      213: 7415305993337156917
+    second: NES - Metroid - Items & Objects_79
+  - first:
+      213: -3066027741864195884
+    second: NES - Metroid - Items & Objects_80
+  - first:
+      213: 6367452141640760488
+    second: NES - Metroid - Items & Objects_81
+  - first:
+      213: -4527561628425884970
+    second: NES - Metroid - Items & Objects_82
+  - first:
+      213: -1154494358411944678
+    second: NES - Metroid - Items & Objects_83
+  - first:
+      213: 7049441918982337409
+    second: NES - Metroid - Items & Objects_84
+  - first:
+      213: -1304482788349614096
+    second: NES - Metroid - Items & Objects_85
+  - first:
+      213: 1722035651604164687
+    second: NES - Metroid - Items & Objects_86
+  - first:
+      213: 2431903233315451426
+    second: NES - Metroid - Items & Objects_87
+  - first:
+      213: 2600646419945656915
+    second: NES - Metroid - Items & Objects_88
+  - first:
+      213: 4357966796259968323
+    second: NES - Metroid - Items & Objects_89
+  - first:
+      213: 4171796802935792601
+    second: NES - Metroid - Items & Objects_90
+  - first:
+      213: 8316542389403040806
+    second: NES - Metroid - Items & Objects_91
+  - first:
+      213: -8946079581315494319
+    second: NES - Metroid - Items & Objects_92
+  - first:
+      213: -2036282781956502044
+    second: NES - Metroid - Items & Objects_93
+  - first:
+      213: 6776302594737078896
+    second: NES - Metroid - Items & Objects_94
+  - first:
+      213: -2423494613009298314
+    second: NES - Metroid - Items & Objects_95
+  - first:
+      213: 499892235336090549
+    second: NES - Metroid - Items & Objects_96
+  - first:
+      213: -5244614665595236539
+    second: NES - Metroid - Items & Objects_97
+  - first:
+      213: 2941161460840529709
+    second: NES - Metroid - Items & Objects_98
+  - first:
+      213: 338950294936975588
+    second: NES - Metroid - Items & Objects_99
+  - first:
+      213: 4213696787208999466
+    second: NES - Metroid - Items & Objects_100
+  - first:
+      213: -1838889521209117320
+    second: NES - Metroid - Items & Objects_101
+  - first:
+      213: -4424158696980486954
+    second: NES - Metroid - Items & Objects_102
+  - first:
+      213: -9216406282975892574
+    second: NES - Metroid - Items & Objects_103
+  - first:
+      213: 5921731356500968105
+    second: NES - Metroid - Items & Objects_104
+  - first:
+      213: -7940995428515820858
+    second: NES - Metroid - Items & Objects_105
+  - first:
+      213: -5941723165738121743
+    second: NES - Metroid - Items & Objects_106
+  - first:
+      213: 988254143482715382
+    second: NES - Metroid - Items & Objects_107
+  - first:
+      213: -3554705415921171943
+    second: NES - Metroid - Items & Objects_108
+  - first:
+      213: -5560576835352976594
+    second: NES - Metroid - Items & Objects_109
+  - first:
+      213: 9047175312315221095
+    second: NES - Metroid - Items & Objects_110
+  - first:
+      213: 721089515910692474
+    second: NES - Metroid - Items & Objects_111
+  - first:
+      213: 7647387083120502930
+    second: NES - Metroid - Items & Objects_112
+  - first:
+      213: 9191851925241874011
+    second: NES - Metroid - Items & Objects_113
+  - first:
+      213: 4698550280150925854
+    second: NES - Metroid - Items & Objects_114
+  - first:
+      213: -7258865507195275846
+    second: NES - Metroid - Items & Objects_115
+  - first:
+      213: 5312213963236918493
+    second: NES - Metroid - Items & Objects_116
+  - first:
+      213: -6095079490048921515
+    second: NES - Metroid - Items & Objects_117
+  - first:
+      213: 3011271125887988821
+    second: NES - Metroid - Items & Objects_118
+  - first:
+      213: 6566624109903379676
+    second: NES - Metroid - Items & Objects_119
+  - first:
+      213: -4919109536651057701
+    second: NES - Metroid - Items & Objects_120
+  - first:
+      213: 3227119189387370678
+    second: NES - Metroid - Items & Objects_121
+  - first:
+      213: 1535166804612416548
+    second: NES - Metroid - Items & Objects_122
+  - first:
+      213: -5441369264171412216
+    second: NES - Metroid - Items & Objects_123
+  - first:
+      213: -6754156147122602956
+    second: NES - Metroid - Items & Objects_124
+  - first:
+      213: 4528761670690487531
+    second: NES - Metroid - Items & Objects_125
+  - first:
+      213: -527386484273315091
+    second: NES - Metroid - Items & Objects_126
+  - first:
+      213: -2237817784197957107
+    second: NES - Metroid - Items & Objects_127
+  - first:
+      213: -5788084516508673729
+    second: NES - Metroid - Items & Objects_128
+  - first:
+      213: 5238225226336931129
+    second: NES - Metroid - Items & Objects_129
+  - first:
+      213: 2433979569480706342
+    second: NES - Metroid - Items & Objects_130
+  - first:
+      213: 1607484795118376027
+    second: NES - Metroid - Items & Objects_131
+  - first:
+      213: -9054277321385623627
+    second: NES - Metroid - Items & Objects_132
+  - first:
+      213: -2287322459414883592
+    second: NES - Metroid - Items & Objects_133
+  - first:
+      213: -8029909300877770348
+    second: NES - Metroid - Items & Objects_134
+  - first:
+      213: -6249213968278590683
+    second: NES - Metroid - Items & Objects_135
+  - first:
+      213: -8336053578933008726
+    second: NES - Metroid - Items & Objects_136
+  - first:
+      213: 3501235254598101852
+    second: NES - Metroid - Items & Objects_137
+  - first:
+      213: -8376772224355145936
+    second: NES - Metroid - Items & Objects_138
+  - first:
+      213: 2602532860501439167
+    second: NES - Metroid - Items & Objects_139
+  - first:
+      213: 4640305577289154042
+    second: NES - Metroid - Items & Objects_140
+  - first:
+      213: 3468899440428778399
+    second: NES - Metroid - Items & Objects_141
+  - first:
+      213: -1283946010553168193
+    second: NES - Metroid - Items & Objects_142
+  - first:
+      213: -1769463180310647275
+    second: NES - Metroid - Items & Objects_143
+  - first:
+      213: 5378754558186064883
+    second: NES - Metroid - Items & Objects_144
+  - first:
+      213: 9015212108603179745
+    second: NES - Metroid - Items & Objects_145
+  - first:
+      213: -7710961843314198530
+    second: NES - Metroid - Items & Objects_146
+  - first:
+      213: -3247582517922883590
+    second: NES - Metroid - Items & Objects_147
+  - first:
+      213: 9000142073067133037
+    second: NES - Metroid - Items & Objects_148
+  - first:
+      213: 7284648708313596115
+    second: NES - Metroid - Items & Objects_149
+  - first:
+      213: 1962603865190385074
+    second: NES - Metroid - Items & Objects_150
+  - first:
+      213: -8445493231539586941
+    second: NES - Metroid - Items & Objects_151
+  - first:
+      213: 3346933925757870672
+    second: NES - Metroid - Items & Objects_152
+  - first:
+      213: -8315446548023839820
+    second: NES - Metroid - Items & Objects_153
+  - first:
+      213: 8874377433795753696
+    second: NES - Metroid - Items & Objects_154
+  - first:
+      213: 1631058696843129628
+    second: NES - Metroid - Items & Objects_155
+  - first:
+      213: 4598279892932388225
+    second: NES - Metroid - Items & Objects_156
+  - first:
+      213: -8254977914973949075
+    second: NES - Metroid - Items & Objects_157
+  - first:
+      213: 1634399706048471221
+    second: NES - Metroid - Items & Objects_158
+  - first:
+      213: 157119093523168560
+    second: NES - Metroid - Items & Objects_159
+  - first:
+      213: -7408666096050693676
+    second: NES - Metroid - Items & Objects_160
+  - first:
+      213: -6294498149510614216
+    second: NES - Metroid - Items & Objects_161
+  - first:
+      213: 541085342157668695
+    second: NES - Metroid - Items & Objects_162
+  - first:
+      213: 6919134026301752158
+    second: NES - Metroid - Items & Objects_163
+  - first:
+      213: -675467377326105106
+    second: NES - Metroid - Items & Objects_164
+  - first:
+      213: 2150269601429200444
+    second: NES - Metroid - Items & Objects_165
+  - first:
+      213: 4274521860451804816
+    second: NES - Metroid - Items & Objects_166
+  - first:
+      213: -8373518305146157755
+    second: NES - Metroid - Items & Objects_167
+  - first:
+      213: 7270463692286068850
+    second: NES - Metroid - Items & Objects_168
+  - first:
+      213: 7109872597599936036
+    second: NES - Metroid - Items & Objects_169
+  - first:
+      213: -6106017293189467243
+    second: NES - Metroid - Items & Objects_170
+  - first:
+      213: 604454623342125555
+    second: NES - Metroid - Items & Objects_171
+  - first:
+      213: 1144679490066603961
+    second: NES - Metroid - Items & Objects_172
+  - first:
+      213: 7060935126444964924
+    second: NES - Metroid - Items & Objects_173
+  - first:
+      213: 6427470505341600262
+    second: NES - Metroid - Items & Objects_174
+  - first:
+      213: -4966043775070054863
+    second: NES - Metroid - Items & Objects_175
+  - first:
+      213: -5602811505236982655
+    second: NES - Metroid - Items & Objects_176
+  - first:
+      213: -9034371153515058738
+    second: NES - Metroid - Items & Objects_177
+  - first:
+      213: -895249965036240580
+    second: NES - Metroid - Items & Objects_178
+  - first:
+      213: -429273571526657300
+    second: NES - Metroid - Items & Objects_179
+  - first:
+      213: 625859115735862105
+    second: NES - Metroid - Items & Objects_180
+  - first:
+      213: 6005686309921713010
+    second: NES - Metroid - Items & Objects_181
+  - first:
+      213: 1293684785623001054
+    second: NES - Metroid - Items & Objects_182
+  - first:
+      213: 2726894364169900559
+    second: NES - Metroid - Items & Objects_183
+  - first:
+      213: 4812811937398731505
+    second: NES - Metroid - Items & Objects_184
+  - first:
+      213: 209026996738931042
+    second: NES - Metroid - Items & Objects_185
+  - first:
+      213: -3747473232464527316
+    second: NES - Metroid - Items & Objects_186
+  - first:
+      213: -1431839591818470237
+    second: NES - Metroid - Items & Objects_187
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 223
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570a1da5e6b88144fbcb41ee7abad8e5
+      internalID: -4226737053371517128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 223
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcad988f506a3c24ba302fcdb53f00cd
+      internalID: 7098193404362549119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_2
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 223
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40bdce47a4650f459cd32721d05fd39
+      internalID: -872600428503655252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_3
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 223
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97087cfbfb70f2043943c8973fd1ef69
+      internalID: 7443819239942586163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_4
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 223
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803cd7ff1ea20e441b10ba20a671b342
+      internalID: 8805557590102939281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 208
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d34147dc6bd104ab5beab7270fc991
+      internalID: 870662784209334798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 208
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9885f68910a6e45a7b9219b8b53e2d
+      internalID: -3833293557570392581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missilePickUp1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 208
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fde7ba5ca230594ab2c021684cc2df0
+      internalID: -479865587470428009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missilPickUp2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 208
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69aff6f687e93eb4cb4de20fab385de6
+      internalID: 904961598930622951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470db9b92e409f34594caff291c967d9
+      internalID: 4511284862164361329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_10
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 209
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c95ed43a5e0db545a590152b25cd433
+      internalID: -250173685935244540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_11
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503efa13556d24c4cabd47a5b3ae0ef7
+      internalID: 2315101361581441176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_12
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 206
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9090126615bea824a9073ca69a022af7
+      internalID: -194982832379708253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 204
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcc623043c834141afc1cb5a2d5d98e
+      internalID: -8879885019924593796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db52eb34b2e5024b9a8b3629b71f673
+      internalID: -278208015501175955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_15
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 204
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f902103c7a87b940a926edbc5e1cb90
+      internalID: -2768712376243903876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_16
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6746ee1f0b195542be3da1f715170c0
+      internalID: -8112142812561129760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_17
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d3f7b43e2d8754aa217874c0ed878c
+      internalID: -8073802449268619212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_18
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 212
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51398036f335db648865b74765ff734e
+      internalID: 5523516917903751359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 212
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7690833119d20a459f9d2ac14dd20bd
+      internalID: -8955505230506151712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_20
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 212
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f80e58ad459c8469c63fa59478efd7
+      internalID: -1916892636093242595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_21
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 204
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5b0b0d24c89b74eb1e9d0b515e5e93
+      internalID: -1420423710851513930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b3bffe854fe57499233e724b888d73
+      internalID: -8520919685736465781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_23
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 192
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce21f987c0b31943b30a92562069bff
+      internalID: 8006278606336166055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_24
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 192
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a21f27249e345e4bb9ccc94487c87a6
+      internalID: -8696004033544847102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_25
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 192
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9c354ef93dfd94e8953cdda3e28240
+      internalID: -5839436575380969921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_26
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 192
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790a8d926486be145bab680bbad36017
+      internalID: -8180409114481881989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_27
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 192
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b00ccc66a052ed49a79d6ade2e1c125
+      internalID: -8739729832282976550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_28
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 192
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b81361ffa27a2240961d7a8f50d0185
+      internalID: -1539757460571194154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_29
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 192
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fde3637971d55945bce6e62e7b454d3
+      internalID: 5051360232224870757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_30
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 192
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d527c65ba1490b408b54ffdb015e208
+      internalID: -8213176959078526889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_31
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 191
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b88619e7553824eaf13a963add6c61
+      internalID: 5836668117076579062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_32
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 192
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce00abe2babb5e44b851892ab9b3aff2
+      internalID: 8227472825274541166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_33
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 182
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bb0d2cac8c77646922e45d30a9c086
+      internalID: 2384614390742357177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_34
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 182
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad6ab31f13001e4fa7e02d0a92636cc
+      internalID: -56097674552340350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_35
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 182
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0428b609b8def4984ecec438735965
+      internalID: -4616922014430800790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_36
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 182
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b403dfd5218adc409cb36741bde0047
+      internalID: 5921277008222798328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_37
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a6c80817bdde94784dc88b62e2eb8f
+      internalID: 6111229610792706917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_38
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee83d437bb81f94d98725b4ad51dac7
+      internalID: -4803634065843271882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_39
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30309069b4445d044907e030779f223e
+      internalID: -5296895619574411571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_40
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df65769b99c559a43b55ac4043edf8f0
+      internalID: -5370993171874882774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_41
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208b15400cf50c741a0eca2edbfda402
+      internalID: -6858103743017388827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_42
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04b2bfbf25e7b84781e77c96e113537
+      internalID: 2438023195954022356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_43
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 159
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bc1970ca0ad814a8f82cb673ea1936
+      internalID: 3543492506512948593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_44
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aaa9e245f93b624dbc7f609bcd0b68e
+      internalID: -8670560950219461313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_45
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 159
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe64f40901cf0f04d8027000c5b10756
+      internalID: -7031048841650176239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_46
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e151f46d7cc874793e436212a922b2
+      internalID: 2076574254415945277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_47
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73304213a6dddb488bde9e294f94fa0
+      internalID: 6473145653962323512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_48
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da094197e272e24ba893828443a5429
+      internalID: 2444571401018233288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_49
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 159
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57207a00b4d3ddb4abd4fea9f9b76c27
+      internalID: 4433761037130352170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_50
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed6ba2d6f14ba843bc174605c9556b6
+      internalID: 7269357081858078514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_51
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19055c647f8adda45b45d5b5b57e9dcc
+      internalID: 9180627518196839773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_52
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566c44fd386fe90409922d2b354317c6
+      internalID: 804879044691867387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_53
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb84ec25846a72842859e5b4a1e178ed
+      internalID: 2312514906539951594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_54
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3b247482af5e14ba25e60c72dbadb3
+      internalID: -180995569918116151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_55
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6372294e274e647b59d5c88cbeb5f7
+      internalID: -3109725447022481579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_56
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f03ec0c9b74c4f4a83ad30d2ab7741c
+      internalID: -5460366598461694231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_57
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423cba711595df747b748b498e2042b3
+      internalID: 934897303933693718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_58
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f684ee919e8b8c4d8e7cc568bdac7ef
+      internalID: -8512601999269284868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_59
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef5fb7ee1c543348814f3794e35476f
+      internalID: 2862548607069485901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_60
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b850bff11557c084fb2e9d648857b2b6
+      internalID: -6785995049447118616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_61
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7930e90aef53456498637bbddf42d14c
+      internalID: 7914039572686216164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_62
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0469c7fd6b8e69a419adb1d3d575bb75
+      internalID: 2265699166663076146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_63
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 134
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146bce41aa0ad514da2506ab846763ea
+      internalID: -8939634330888364258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_64
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 134
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c14a9c6705a26438176dc1c1b2e4be
+      internalID: -6069279540792003630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_65
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 134
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9823c721a1f764488a587e79fc7d93d
+      internalID: 4024918732683345218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_66
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 134
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305c826d67380694ba8b465c074659f0
+      internalID: 5168642253317521866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_67
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 134
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0fddd7f1d96cc4092568d833ad4d29
+      internalID: -3694477377359700818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_68
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 134
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b602c5e534f2a941811003047e1f5b6
+      internalID: 7673428397531884154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_69
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 134
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f5c4986da13b34794eb9d9a5c3b3d9
+      internalID: -4294956790416041029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_70
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 134
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f971b3d4d04f7a4ba70588f5fbd0a92
+      internalID: -5716759736751200373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_71
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 134
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982a6144dccbe8b4b97ad0f0389a6ebf
+      internalID: 6309312455908273603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_72
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 134
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a368d40a9650ab04ba2da0137f79a05e
+      internalID: -4128814072834678709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_73
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 134
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eabd4f9811a1574b994615a790512be
+      internalID: -7345300202393305535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_74
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 134
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4012500d55f1c4cbb698618eda1161
+      internalID: -2800598081115585652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_75
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 134
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0738174cb30a547bdec83f572e88ff
+      internalID: 6532621478578922621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_76
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 134
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14a387658f03404094eb29fee613188
+      internalID: 4411817156206534051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_77
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 134
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb79a0e0b379014b9749231fe0e0e3c
+      internalID: 468627584642405308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_78
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 134
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d951914c707592b40938502dd2d3928f
+      internalID: 5552082407979715397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_79
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 134
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81ababb171788a409a146601bacbdf0
+      internalID: 7415305993337156917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_80
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 134
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb388ddf79cd37f4e92b6499fa9ecba5
+      internalID: -3066027741864195884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_81
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 134
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984099b2351b76c40b00c83952622d1d
+      internalID: 6367452141640760488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_82
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 123
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a07d7dc1bb43a14f884a0d2080c5e9b
+      internalID: -4527561628425884970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_83
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 123
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d977bdb2f6db84e8913293345e7a3a
+      internalID: -1154494358411944678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_84
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 114
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d75a7dbe166cb342a175035d95b3581
+      internalID: 7049441918982337409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_85
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 124
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4638fa5ce21bf47aa3f9b05a21e537
+      internalID: -1304482788349614096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_86
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 124
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a19b9e5724a71d4292ba95035a8f24c
+      internalID: 1722035651604164687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_87
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 124
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752384063abd76a4e86270888f10b7a3
+      internalID: 2431903233315451426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_88
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 124
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1e7fad613393341a2f10b0819fc8f1
+      internalID: 2600646419945656915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_89
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 91
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b37df42d4910d2428c0102e85720394
+      internalID: 4357966796259968323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_90
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 107
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1928db22a9462b94c857cdb21eb23fa3
+      internalID: 4171796802935792601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_91
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 83
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257d78087c1e3ff47a97a6626abb0752
+      internalID: 8316542389403040806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_92
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 124
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8140e90bd28b14e97e6350d675fade
+      internalID: -8946079581315494319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_93
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 83
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53619d1153b72a24d8df3e900152a7b9
+      internalID: -2036282781956502044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_94
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 124
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87ccafe4cda7e54db23c8f269876645
+      internalID: 6776302594737078896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_95
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 83
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81ca0a70065ecd4299c9b65b30dd2ea
+      internalID: -2423494613009298314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_96
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 124
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c2a8ed6c8016d42833376d9ae86286
+      internalID: 499892235336090549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_97
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 83
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351e8d8e29571bc4287a1e422447a45b
+      internalID: -5244614665595236539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_98
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 124
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5e64922187a98439faf80233e58a0d
+      internalID: 2941161460840529709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_99
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 114
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d3813e442a7dd418708b750fb34500
+      internalID: 338950294936975588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_100
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab8f78421d9611419ab1b87fe754215
+      internalID: 4213696787208999466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_101
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 114
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ada84398a00afc489d0994bd032a3c2
+      internalID: -1838889521209117320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_102
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1093dc48abd65874aa94064250311738
+      internalID: -4424158696980486954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_103
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c48db14eb4eaf40a4256e433a5b9ad
+      internalID: -9216406282975892574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_104
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2147b35762d574cb0c3594afa1306c
+      internalID: 5921731356500968105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_105
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f8920dd4d62f2458979fc5eec9f6a7
+      internalID: -7940995428515820858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_106
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29421a17676f2d5419a3a9d992a094bb
+      internalID: -5941723165738121743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_107
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e847579f97227584ca66fb1bf26cda44
+      internalID: 988254143482715382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_108
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3634344be1eaa4095cdff76b435f97
+      internalID: -3554705415921171943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_109
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a3866755cf87f44a7fbf548934fd15
+      internalID: -5560576835352976594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_110
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 96
+        width: 4
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb2c0d839f036740ab9c121ff674ac0
+      internalID: 9047175312315221095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_111
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 96
+        width: 4
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4415cf4ed24e95c48a658dbaf3eed4b4
+      internalID: 721089515910692474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_112
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 96
+        width: 4
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdd61556ed85464a954a0346f4e2ac7
+      internalID: 7647387083120502930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_113
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 96
+        width: 4
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1848e0ca8b93a419555afc1e5789a1
+      internalID: 9191851925241874011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_114
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 105
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f7ebcc948d13a4796af7051f2063b2
+      internalID: 4698550280150925854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_115
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 101
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8f862174103d144b073e1ec1f7aa38
+      internalID: -7258865507195275846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_116
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 101
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0703c2db9ea968c49b14f76e1481d299
+      internalID: 5312213963236918493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_117
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 101
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd5e4981972dbe4fb94c126d33b75a3
+      internalID: -6095079490048921515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_118
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 101
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba405fdf4907ca4488e2e9287fa26f3
+      internalID: 3011271125887988821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_119
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 101
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de8e0cc300177945ad6d1b0ddd29d8c
+      internalID: 6566624109903379676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_120
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 91
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4642e53abba6f43b8595a6c13b8d1c
+      internalID: -4919109536651057701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_121
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 97
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424fa6069f1331d46a629e063e8341e4
+      internalID: 3227119189387370678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_122
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 90
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03743f85da51f53458f5096aad2590fd
+      internalID: 1535166804612416548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_123
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 90
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1483ab9331fef1408dcafd4d9641b4c
+      internalID: -5441369264171412216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_124
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 90
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cb6df35f84f9a4aae39c418195a079
+      internalID: -6754156147122602956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_125
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 90
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f28b181b018d404d8f1ff24e922a3c7
+      internalID: 4528761670690487531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_126
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 90
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340bf4c4ce3419a419e1e62cc072284c
+      internalID: -527386484273315091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_127
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 90
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33377de7e7584414086f3a7bf38efb14
+      internalID: -2237817784197957107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_128
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 90
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272c241f288d9c3409359ec335df3f11
+      internalID: -5788084516508673729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_129
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 90
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d54d31ec796d5545b84e94dfc1f5f2b
+      internalID: 5238225226336931129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_130
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 90
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9577482ea5d60034d9489b0e895684dd
+      internalID: 2433979569480706342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_131
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 90
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c04fbf61d761a248ac5accc622f8cf4
+      internalID: 1607484795118376027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_132
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 78
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52638da5ea482ce4cae4050f164a4e27
+      internalID: -9054277321385623627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_133
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 78
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d58728680e3ba45a0ec8309b6e1468
+      internalID: -2287322459414883592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_134
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 78
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d0eb5fc7b652242a9772bd032393c1
+      internalID: -8029909300877770348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_135
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 78
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c240bfa5b445704882a4bafde8de532
+      internalID: -6249213968278590683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_136
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 83
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad3c2353987e7d4f8ad8f4409298c02
+      internalID: -8336053578933008726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_137
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 83
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b982e968920f5bc42a866483cd457249
+      internalID: 3501235254598101852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_138
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 83
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd737eb799d75c24bb3101ba9c3f5c87
+      internalID: -8376772224355145936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_139
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 83
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d6a9a7373cca74aad330020102916d
+      internalID: 2602532860501439167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_140
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 78
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f23efeaf36b18f4f8e02c339b3a7078
+      internalID: 4640305577289154042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_141
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 78
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826720d727a4e7a4d9effe5d1379e6dc
+      internalID: 3468899440428778399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_142
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 78
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b79cc266f1b1c45b087fd270792ec0
+      internalID: -1283946010553168193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_143
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 78
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434e22a047c229e49b03a1d6ffb90368
+      internalID: -1769463180310647275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_144
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 78
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2782419e3b0561f49a36af2841261224
+      internalID: 5378754558186064883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_145
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 78
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b270ab8d7044ef749805d854126c693f
+      internalID: 9015212108603179745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_146
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 78
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a5568af12e8224997c20a2283e5b91
+      internalID: -7710961843314198530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_147
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 78
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a1791b2f1847540b95d85691ce0593
+      internalID: -3247582517922883590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_148
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 78
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1437498c887bf9b48bddf9e3dfa68cec
+      internalID: 9000142073067133037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_149
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 67
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197ef5a6b1b1f4e4f99ce429c9fef44a
+      internalID: 7284648708313596115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_150
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 67
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a33b304915a9b4ca9291ec918bdd89
+      internalID: 1962603865190385074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_151
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 67
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6e900ce97874e4bbc53cf7bcc4c2ec
+      internalID: -8445493231539586941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_152
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fec590e9cee9d47931dc85f2b98c99
+      internalID: 3346933925757870672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_153
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 55
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fcadd1e6abc0f449487b0795b26e63
+      internalID: -8315446548023839820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_154
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 55
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77d41b065437494992688cf51abba6e
+      internalID: 8874377433795753696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_155
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 55
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296c540ea264fca40a3f9b2c7f46cb74
+      internalID: 1631058696843129628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_156
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 55
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efed889dc4ffd534a9d51f570bf98b77
+      internalID: 4598279892932388225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_157
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 55
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ec3622355a08541b99e5ba11d611d3
+      internalID: -8254977914973949075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_158
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 55
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5670878c343de740af7cda2025605c1
+      internalID: 1634399706048471221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_159
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 55
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21beb6679a4e29545a361aebffffbd9e
+      internalID: 157119093523168560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_160
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 55
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48d985122edf904a81e7469e980f4f6
+      internalID: -7408666096050693676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_161
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 55
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3527de27447be74a991503070994e5a
+      internalID: -6294498149510614216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_162
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 55
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c5865993038a841867898c6d83f52a
+      internalID: 541085342157668695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_163
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 55
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df25ea7399eb3014d8f055cc98172a43
+      internalID: 6919134026301752158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_164
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 55
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdd1d97131515e478a168f191586ec5
+      internalID: -675467377326105106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_165
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 55
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6215236be8f07bd41bd731b324659186
+      internalID: 2150269601429200444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_166
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 55
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccf979368b1b1e45a103f72b33c77c6
+      internalID: 4274521860451804816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_167
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 55
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b35ca21a6e7bd45bac84f7f9ab0978
+      internalID: -8373518305146157755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_168
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 55
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c6d087a7bd2c94a90bb78730344397
+      internalID: 7270463692286068850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_169
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 55
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c685703044641304a894596a6032551e
+      internalID: 7109872597599936036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_170
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 55
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b35c920cd9606049bd3f4b150e46761
+      internalID: -6106017293189467243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_171
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 55
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb97fdf5be9eb942a4e9b415e6e742e
+      internalID: 604454623342125555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_172
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 55
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a4e4e72f6519746add88b984aa26ed
+      internalID: 1144679490066603961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_173
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 55
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81bb48eee2a8ed4382f245859984cb5
+      internalID: 7060935126444964924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_174
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 55
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d09c99125168134e8129b50f811535b
+      internalID: 6427470505341600262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_175
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 55
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60dbeaba936a82c4fb516b915f08abfa
+      internalID: -4966043775070054863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_176
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 55
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e994e5fdedf517948ba4f9d4221ad00b
+      internalID: -5602811505236982655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_177
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 55
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dec66b164fba574b853d8b010a2fe0b
+      internalID: -9034371153515058738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_178
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 55
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e924b647b621d045b42a41f613577b8
+      internalID: -895249965036240580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_179
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 55
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c2b98cc7465cc4c8f112e2c4725f8a
+      internalID: -429273571526657300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_180
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 55
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1da3bfd8512b1489986301bbdcd802
+      internalID: 625859115735862105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_181
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 45
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c70b35bdb66b0349928b8663c497d44
+      internalID: 6005686309921713010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_182
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 45
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da27426329e21f74f88ac0bb3fbe657c
+      internalID: 1293684785623001054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_183
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212c66fc10060924b93d8abe2d1d4aa0
+      internalID: 2726894364169900559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_184
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03526f8bb961fb34cb103f0f6e54b624
+      internalID: 4812811937398731505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_185
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5210db1e840669041a1c619b12a6e8ae
+      internalID: 209026996738931042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_186
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996dc45aacdeb20498e7fa1f226820f3
+      internalID: -3747473232464527316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_187
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 224
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919003c86de8b914eacd906d3369dc15
+      internalID: -1431839591818470237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

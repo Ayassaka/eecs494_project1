@@ -13,6 +13,9 @@ GameObject:
   - component: {fileID: 226024970}
   - component: {fileID: 6776316226491235429}
   - component: {fileID: 8827803725768753996}
+  - component: {fileID: 984540688}
+  - component: {fileID: 1833997432401503793}
+  - component: {fileID: 9154747140181370219}
   m_Layer: 9
   m_Name: Run
   m_TagString: Untagged
@@ -46,7 +49,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25d365339a39b514699fbc7b301b7dc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Jumppower: 7
+  jumpPower: 15
+  isRunning: 0
 --- !u!136 &226024970
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -60,7 +64,7 @@ CapsuleCollider:
   m_Radius: 0.4
   m_Height: 1.8
   m_Direction: 1
-  m_Center: {x: 0, y: -0.1, z: 0}
+  m_Center: {x: 0.1, y: -0.25, z: 0}
 --- !u!114 &6776316226491235429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,6 +78,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 5535088667609010623, guid: 09a46a71fd6d7e74e983aa6358e88daf,
+    type: 3}
+  missilePrefab: {fileID: 5535088667609010623, guid: d0f7883bb96350b4683d8b75e6487cce,
     type: 3}
   firePostionUpward: {fileID: 4486607504421049936}
   firePostionForward: {fileID: 2134052674325505103}
@@ -113,8 +119,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1582152669
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -4035405703782004102, guid: ce94f51f558bd47eca28c0601d6aa21e,
     type: 3}
@@ -128,6 +134,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &984540688
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226024968}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ae46999a2e963de4981483fbc9a1884b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1833997432401503793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226024968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25d365339a39b514699fbc7b301b7dc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpPower: 15
+  isRunning: 1
+--- !u!114 &9154747140181370219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226024968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55a67d88dd3f6fe48aa0916a1e696861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &251753407
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,7 +190,9 @@ GameObject:
   - component: {fileID: 251753408}
   - component: {fileID: 251753410}
   - component: {fileID: 251753409}
-  - component: {fileID: 251753411}
+  - component: {fileID: 1515190624}
+  - component: {fileID: 2706676199046318927}
+  - component: {fileID: 5667845844762105133}
   m_Layer: 9
   m_Name: RunJump
   m_TagString: Untagged
@@ -209,8 +262,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1582152669
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1197263711592900606, guid: ce94f51f558bd47eca28c0601d6aa21e,
     type: 3}
@@ -224,7 +277,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &251753411
+--- !u!95 &1515190624
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251753407}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 15545895e827aa042879ab15c2f5ea27, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2706676199046318927
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -233,10 +305,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 251753407}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aad1c6ed32b84f349addb4163522a76e, type: 3}
+  m_Script: {fileID: 11500000, guid: 6fe8701cd924cbe45a99eb9a3d0673c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Jumppower: 10
+--- !u!114 &5667845844762105133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251753407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 042bc6ac3de1d5941af785208d883488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 5535088667609010623, guid: 09a46a71fd6d7e74e983aa6358e88daf,
+    type: 3}
+  missilePrefab: {fileID: 5535088667609010623, guid: d0f7883bb96350b4683d8b75e6487cce,
+    type: 3}
+  firePostionUpward: {fileID: 4486607504421049936}
+  firePostionForward: {fileID: 2134052674325505103}
+  bulletSpeed: 10
 --- !u!1 &536296007
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,6 +340,8 @@ GameObject:
   - component: {fileID: 536296011}
   - component: {fileID: 536296010}
   - component: {fileID: 536296013}
+  - component: {fileID: 3150844814195277556}
+  - component: {fileID: 553658541140489599}
   m_Layer: 9
   m_Name: Jump
   m_TagString: Untagged
@@ -306,8 +398,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1582152669
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -7547502794644193947, guid: ce94f51f558bd47eca28c0601d6aa21e,
     type: 3}
@@ -349,6 +441,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 5535088667609010623, guid: 09a46a71fd6d7e74e983aa6358e88daf,
     type: 3}
+  missilePrefab: {fileID: 5535088667609010623, guid: d0f7883bb96350b4683d8b75e6487cce,
+    type: 3}
   firePostionUpward: {fileID: 4486607504421049936}
   firePostionForward: {fileID: 2134052674325505103}
   bulletSpeed: 10
@@ -364,7 +458,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fe8701cd924cbe45a99eb9a3d0673c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Jumppower: 10
+--- !u!114 &3150844814195277556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536296007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55a67d88dd3f6fe48aa0916a1e696861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &553658541140489599
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536296007}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6e7c551877025474ba1fade34558bb6f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1744523028799146975
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,11 +560,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d227306fd71dd33429d013dbcb9acefc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 1744523030195542589}
-  spriteLookingForward: {fileID: 21300000, guid: ce94f51f558bd47eca28c0601d6aa21e,
-    type: 3}
-  spriteLookingUpward: {fileID: 21300002, guid: ce94f51f558bd47eca28c0601d6aa21e,
-    type: 3}
 --- !u!114 &4726661385627708638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -454,6 +573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Movespeed: 5
+  JumpingMovespeed: 3
 --- !u!114 &3838466744362072771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -473,15 +593,13 @@ MonoBehaviour:
   Run: {fileID: 226024968}
   healthtext: {fileID: 0}
   missiletext: {fileID: 0}
-  longpress: 0
-  isRunjump: 0
-  isRunning: 0
   isJumping: 0
   isGodMode: 0
   isLongbeam: 0
-  time: 0
   health: 30
-  missile: 30
+  max_health: 99
+  missile: 2
+  max_missile: 5
 --- !u!114 &1174965710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -507,7 +625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteBlinkingMiniDuration: 0.05
-  spriteBlinkingTime: 10
+  spriteBlinkingTimes: 5
 --- !u!1 &1744523030195542590
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,6 +639,8 @@ GameObject:
   - component: {fileID: 1744523030195542588}
   - component: {fileID: 5636917263766873045}
   - component: {fileID: 6914776821799265152}
+  - component: {fileID: 306467225373683266}
+  - component: {fileID: 5134952821250209840}
   m_Layer: 9
   m_Name: Standing
   m_TagString: Untagged
@@ -604,7 +724,7 @@ CapsuleCollider:
   m_Radius: 0.4
   m_Height: 1.8
   m_Direction: 1
-  m_Center: {x: 0, y: -0.1, z: 0}
+  m_Center: {x: 0.1, y: -0.25, z: 0}
 --- !u!114 &5636917263766873045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -618,6 +738,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 5535088667609010623, guid: 09a46a71fd6d7e74e983aa6358e88daf,
+    type: 3}
+  missilePrefab: {fileID: 5535088667609010623, guid: d0f7883bb96350b4683d8b75e6487cce,
     type: 3}
   firePostionUpward: {fileID: 4486607504421049936}
   firePostionForward: {fileID: 2134052674325505103}
@@ -634,7 +756,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25d365339a39b514699fbc7b301b7dc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Jumppower: 5
+  jumpPower: 15
+  isRunning: 0
+--- !u!95 &306467225373683266
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744523030195542590}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 28390a63b83337a4bb9d093416481929, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5134952821250209840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744523030195542590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55a67d88dd3f6fe48aa0916a1e696861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2008329025162979578
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,7 +843,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8117612327091151621}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5999985, y: 0.36499977, z: 0}
+  m_LocalPosition: {x: 0.75, y: 0.225, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1744523028799146973}
@@ -706,6 +860,8 @@ GameObject:
   - component: {fileID: 8262173700148328632}
   - component: {fileID: 7769103039007648452}
   - component: {fileID: 1065601865380102427}
+  - component: {fileID: 1284669778}
+  - component: {fileID: 714844531760172612}
   m_Layer: 9
   m_Name: Morphed
   m_TagString: Untagged
@@ -726,7 +882,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1744523028799146973}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!135 &7769103039007648452
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -789,3 +945,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1284669778
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9067111262252301621}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bd6186eb42bbab94780de30189125609, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &714844531760172612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9067111262252301621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eb53a33fac6cdc44a23a9928f56679b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class PlayerDirection : MonoBehaviour
 {
-
-    public SpriteRenderer spriteRenderer;
-    public Sprite spriteLookingForward;
-    public Sprite spriteLookingUpward;
-
     bool facing_up = false;
     bool facing_right = true;
 
     // Update is called once per frame
+    
     void Update()
     {
         float axis_h = Input.GetAxis("Horizontal");
@@ -32,12 +28,14 @@ public class PlayerDirection : MonoBehaviour
         if (facing_up) {
             if (!axis_v) {
                 facing_up = false;
-                spriteRenderer.sprite = spriteLookingForward;
+                PlayerFireDirection pfd = gameObject.GetComponentInChildren<PlayerFireDirection>();
+                if (pfd != null) pfd.setFireDirectionForward();
             }
         } else {
             if (axis_v) {
                 facing_up = true;
-                spriteRenderer.sprite = spriteLookingUpward;
+                PlayerFireDirection pfd = gameObject.GetComponentInChildren<PlayerFireDirection>();
+                if (pfd != null) pfd.setFireDirectionUpward();
             }
         }
     }

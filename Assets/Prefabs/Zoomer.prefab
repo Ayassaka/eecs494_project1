@@ -166,6 +166,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoints: 5
+  dropPrefabs:
+  - {fileID: 8939137139834049470, guid: 1b091b6c2b061654b9334c9152194da4, type: 3}
+  - {fileID: 6674732522599348622, guid: 322b6a10ae064b8458186198756cee9c, type: 3}
+  dropRate:
+  - 0.35
+  - 0.25
 --- !u!1 &2580358332783080020
 GameObject:
   m_ObjectHideFlags: 0

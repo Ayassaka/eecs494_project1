@@ -6,6 +6,7 @@ public class PlayerWeapon : MonoBehaviour
 {
     PlayerDirection playerDirection;
     public GameObject bulletPrefab;
+    public GameObject missilePrefab;
     public Transform firePostionUpward;
     public Transform firePostionForward;
     public float bulletSpeed;
@@ -18,19 +19,24 @@ public class PlayerWeapon : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.X)) {
-            GameObject bulletInstance = GameObject.Instantiate(bulletPrefab);
-            PlayerState.instance.missile--;
-            PlayerState.instance.missiletext.text = "missile:" + PlayerState.instance.missile.ToString();
-            if (playerDirection.isLookingUp()) {
-                bulletInstance.transform.position = firePostionUpward.position;
-                bulletInstance.GetComponent<Rigidbody>().velocity = new Vector3(0, bulletSpeed, 0);
+            fire(missilePrefab);
+        }
+    }
+
+    void fire(GameObject prefab) {
+        GameObject bulletInstance = GameObject.Instantiate(prefab);
+        if (playerDirection.isLookingUp()) {
+            bulletInstance.transform.position = firePostionUpward.position;
+            bulletInstance.transform.rotation = Quaternion.identity;
+            bulletInstance.GetComponent<Rigidbody>().velocity = new Vector3(0, bulletSpeed, 0);
+        } else {
+            bulletInstance.transform.position = firePostionForward.transform.position;
+            if (playerDirection.isFacingRight()) {
+                // bulletInstance.transform.rotation = Quaternion.LookRotation(Vector3.right);
+                bulletInstance.GetComponent<Rigidbody>().velocity = new Vector3(bulletSpeed, 0, 0);
             } else {
-                bulletInstance.transform.position = firePostionForward.position;
-                if (playerDirection.isFacingRight()) {
-                    bulletInstance.GetComponent<Rigidbody>().velocity = new Vector3(bulletSpeed, 0, 0);
-                } else {
-                    bulletInstance.GetComponent<Rigidbody>().velocity = new Vector3(-bulletSpeed, 0, 0);
-                }
+                // bulletInstance.transform.rotation = Quaternion.LookRotation(Vector3.left);
+                bulletInstance.GetComponent<Rigidbody>().velocity = new Vector3(-bulletSpeed, 0, 0);
             }
         }
     }
