@@ -5,36 +5,39 @@ using UnityEngine.SceneManagement;
 public class Takedamage : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float spriteBlinkingMiniDuration = 0.1f;
+    public float spriteBlinkingMiniDuration = .1f;
+    public float spriteStunDuration = .2f;
+    public float spriteInertiaDuration = 1f;
     public int spriteBlinkingTimes = 5;
+    public float knockBackPower = 50;
 
     private void OnTriggerEnter(Collider other) {
         if (other.tag == "enemy") {
             if (PlayerState.instance.isGodMode) {
                 return;
             }
-            StartCoroutine(blink(spriteBlinkingTimes));
-            PlayerState.instance.health -= 8;
+            PlayerState.instance.loseHealth(8);
+            // PlayerState.instance.hitGround();
+
             StartCoroutine(becomegod());
-            Vector3 Offset = new Vector3(-0.5f, 0, 0);
-            transform.position = transform.position + Offset;
-            if (PlayerState.instance.health <= 0) {
-                Scene scene = SceneManager.GetActiveScene(); 
-                SceneManager.LoadScene(scene.name);
-            } else {
-                PlayerState.instance.healthtext.text = "health = " + PlayerState.instance.health.ToString();
-            }
+            StartCoroutine(blink(spriteBlinkingTimes));
+            // StartCoroutine(knock_back(other.transform.position));
         }
     }
-    IEnumerator damage() {
-        //PlayerState.instance.health -= 8;
-        PlayerState.instance.standing.SetActive(false);
-        PlayerState.instance.morphed.SetActive(true);
-        PlayerState.instance.jump.SetActive(false);
-        PlayerState.instance.Runjump.SetActive(false);
-        PlayerState.instance.Run.SetActive(false);
-        yield return new WaitForSeconds(1);
-        PlayerState.instance.standing.SetActive(false);
+
+    IEnumerator knock_back(Vector3 position) {
+
+
+        Vector3 direction = Vector3.Normalize(transform.position - position);
+        
+        gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        gameObject.GetComponent<Rigidbody>().AddForce(direction * knockBackPower);
+        PlayerState.instance.controlable = false;
+        PlayerState.instance.HorizontalInertia = true;
+        yield return new WaitForSeconds(spriteStunDuration);
+        PlayerState.instance.controlable = true;
+        yield return new WaitForSeconds(spriteInertiaDuration - spriteStunDuration);
+        PlayerState.instance.HorizontalInertia = false;
     }
 
     IEnumerator blink(int blinkTimes) {
