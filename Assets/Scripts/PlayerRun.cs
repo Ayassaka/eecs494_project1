@@ -17,10 +17,12 @@ public class PlayerRun : MonoBehaviour
     void Update()
     {
         Vector3 newVelocity = rigid.velocity;
+        if (!PlayerState.instance.isRunjump) {
         if (PlayerState.instance.isJumping) {
             newVelocity.x = Input.GetAxis("Horizontal") * JumpingMovespeed;
         } else {
             newVelocity.x = Input.GetAxis("Horizontal") * Movespeed;
+        }
         }
         rigid.velocity = newVelocity;
     }

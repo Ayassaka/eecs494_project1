@@ -22,6 +22,7 @@ public class PlayerState : MonoBehaviour
     public int max_health = 99;
     public int missile = 5;
     public int max_missile = 5;
+    public bool isRunjump = false;
     private void Awake() {
         if (instance == null) {
             instance = this;
@@ -143,6 +144,7 @@ public class PlayerState : MonoBehaviour
             jump.SetActive(false);
             Runjump.SetActive(true);
             Run.SetActive(false);
+            isRunjump = true;
         } else {
             standing.SetActive(false);
             morphed.SetActive(false);
