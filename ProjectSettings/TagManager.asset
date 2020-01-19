@@ -9,6 +9,7 @@ TagManager:
   - enemy
   - missilePickUp
   - healthPickUp
+  - Missile
   layers:
   - Default
   - TransparentFX

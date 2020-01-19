@@ -586,6 +586,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edf0ec4e7851996429918c13e104b09d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 2048
   standing: {fileID: 1744523030195542590}
   morphed: {fileID: 9067111262252301621}
   jump: {fileID: 536296007}
@@ -596,6 +599,7 @@ MonoBehaviour:
   isJumping: 0
   isGodMode: 0
   isLongbeam: 0
+  MissileMode: 0
   health: 30
   max_health: 99
   missile: 2

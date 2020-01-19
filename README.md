@@ -10,3 +10,4 @@
 - animation needed when missile explodes
 - Missile Mode Sprites of the player
 - hold x to fire continuously
+- Missile Life inf?

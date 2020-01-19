@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class PlayerState : MonoBehaviour
 {
-
+    public LayerMask wallLayer;
     public GameObject standing;
     public GameObject morphed;
     public GameObject jump;
@@ -17,7 +17,7 @@ public class PlayerState : MonoBehaviour
     public bool isGodMode = false;
     public static PlayerState instance;
     public bool isLongbeam = false;
-    public bool MissleMode = false;
+    public bool MissileMode = false;
     public int health = 30;
     public int max_health = 99;
     public int missile = 5;
@@ -30,10 +30,33 @@ public class PlayerState : MonoBehaviour
         }
     }
     void Update()
-    {
+    {   
+        // God Mode
         if (Input.GetKeyDown(KeyCode.Alpha1)) {
             isGodMode = true;
+            max_missile = 99;
             gainMissile(max_missile);
+        }
+        // Missile Mode
+        if (Input.GetKeyDown(KeyCode.LeftShift)) {
+            toggleMissileMode();
+        }
+    }
+
+    void toggleMissileMode() {
+        if (MissileMode) {
+            MissileMode = false;
+            setColorOfAllChildren(Color.white);
+        } else {
+            MissileMode = true;
+            setColorOfAllChildren(Color.cyan);
+        }
+    }
+    void setColorOfAllChildren(Color color) {
+        SpriteRenderer sr;
+        foreach (Transform child in transform) {
+            sr = child.gameObject.GetComponent<SpriteRenderer>();
+            if (sr != null) sr.color = color;
         }
     }
 
@@ -49,13 +72,20 @@ public class PlayerState : MonoBehaviour
         missiletext.text = "Missile: " + missile.ToString();
     }
     
+    public bool useMissile() {
+        if (missile == 0) return false;
+        missile--;
+        missiletext.text = "Missile: " + missile.ToString();
+        return true;
+    }
+
 
     public bool isGrounded() {
         Collider col = this.GetComponentInChildren<Collider>();
         Ray ray = new Ray(col.bounds.center, Vector3.down);
         float radius = col.bounds.extents.x - 0.05f;
         float fullDistance = col.bounds.extents.y + 0.05f;
-        if (Physics.SphereCast(ray, radius, fullDistance)) {
+        if (Physics.SphereCast(ray, radius, fullDistance, wallLayer)) {
             return true;
         }
         return false;
@@ -66,7 +96,7 @@ public class PlayerState : MonoBehaviour
         Ray ray = new Ray(col.bounds.center, Vector3.up);
         float radius = col.bounds.extents.x - 0.05f;
         float fullDistance = col.bounds.extents.y + 0.05f;
-        if (Physics.SphereCast(ray, radius, fullDistance)) {
+        if (Physics.SphereCast(ray, radius, fullDistance, wallLayer)) {
             return true;
         }
         return false;

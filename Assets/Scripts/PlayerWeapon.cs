@@ -19,7 +19,13 @@ public class PlayerWeapon : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.X)) {
-            fire(missilePrefab);
+            if (PlayerState.instance.MissileMode) {
+                if (PlayerState.instance.useMissile()) {
+                    fire(missilePrefab);   
+                }
+            } else {
+                fire(bulletPrefab);
+            }
         }
     }
 
@@ -32,10 +38,10 @@ public class PlayerWeapon : MonoBehaviour
         } else {
             bulletInstance.transform.position = firePostionForward.transform.position;
             if (playerDirection.isFacingRight()) {
-                // bulletInstance.transform.rotation = Quaternion.LookRotation(Vector3.right);
+                bulletInstance.transform.Rotate(Vector3.forward, -90);
                 bulletInstance.GetComponent<Rigidbody>().velocity = new Vector3(bulletSpeed, 0, 0);
             } else {
-                // bulletInstance.transform.rotation = Quaternion.LookRotation(Vector3.left);
+                bulletInstance.transform.Rotate(Vector3.forward, 90);
                 bulletInstance.GetComponent<Rigidbody>().velocity = new Vector3(-bulletSpeed, 0, 0);
             }
         }
