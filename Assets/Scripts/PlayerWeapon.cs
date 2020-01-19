@@ -18,7 +18,7 @@ public class PlayerWeapon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X)) {
+        if (PlayerState.instance.controlable && Input.GetKeyDown(KeyCode.X)) {
             if (PlayerState.instance.MissileMode) {
                 if (PlayerState.instance.useMissile()) {
                     fire(missilePrefab);   

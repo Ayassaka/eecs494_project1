@@ -6,7 +6,7 @@ public class PlayerMorphedController : MonoBehaviour
 {
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.A)) {
+        if (PlayerState.instance.controlable && Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.A)) {
             PlayerState.instance.deMorph();
         }
     }

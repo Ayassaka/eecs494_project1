@@ -6,14 +6,16 @@ using UnityEngine.SceneManagement;
 public class PlayerState : MonoBehaviour
 {
     public LayerMask wallLayer;
-    public GameObject standing;
+
     public GameObject morphed;
-    public GameObject jump;
-    public GameObject Runjump;
-    public GameObject Run;
+    public GameObject airController;
+    public GameObject groundController;
     public Text healthtext;
     public Text missiletext;
     public bool isJumping = false;
+
+    public bool HorizontalInertia = false;
+    public bool controlable = true;
     public bool isGodMode = false;
     public static PlayerState instance;
     public bool isLongbeam = false;
@@ -38,7 +40,7 @@ public class PlayerState : MonoBehaviour
             gainMissile(max_missile);
         }
         // Missile Mode
-        if (Input.GetKeyDown(KeyCode.LeftShift)) {
+        if (PlayerState.instance.controlable && Input.GetKeyDown(KeyCode.LeftShift)) {
             toggleMissileMode();
         }
     }
@@ -46,17 +48,10 @@ public class PlayerState : MonoBehaviour
     void toggleMissileMode() {
         if (MissileMode) {
             MissileMode = false;
-            setColorOfAllChildren(Color.white);
+            gameObject.GetComponent<RendererChildren>().setColorOfAllChildren(Color.white);
         } else {
             MissileMode = true;
-            setColorOfAllChildren(Color.cyan);
-        }
-    }
-    void setColorOfAllChildren(Color color) {
-        SpriteRenderer sr;
-        foreach (Transform child in transform) {
-            sr = child.gameObject.GetComponent<SpriteRenderer>();
-            if (sr != null) sr.color = color;
+            gameObject.GetComponent<RendererChildren>().setColorOfAllChildren(Color.cyan);
         }
     }
 
@@ -64,6 +59,15 @@ public class PlayerState : MonoBehaviour
         health += v;
         if (health > max_health) health = max_health;
         healthtext.text = "Health: " + health.ToString();
+    }
+    public void loseHealth(int v) {
+        health -= v;
+        if (health <= 0) {
+            Scene scene = SceneManager.GetActiveScene(); 
+            SceneManager.LoadScene(scene.name);
+        } else {
+            healthtext.text = "Health: " + health.ToString();
+        }
     }
 
     public void gainMissile(int v) {
@@ -109,47 +113,15 @@ public class PlayerState : MonoBehaviour
     
     public void hitGround() {
         isJumping = false;
-        setRunning();
-    }
-
-    public void setRunning() {
-        if (isRunning()) {
-            standing.SetActive(false);
-            morphed.SetActive(false);
-            jump.SetActive(false);
-            Runjump.SetActive(false);
-            Run.SetActive(true);
-        } else {
-            standing.SetActive(true);
-            morphed.SetActive(false);
-            jump.SetActive(false);
-            Runjump.SetActive(false);
-            Run.SetActive(false);
-        }
-    }
-
-    public void startRunning() {
-        standing.SetActive(false);
+        airController.SetActive(false);
+        groundController.SetActive(true);
         morphed.SetActive(false);
-        jump.SetActive(false);
-        Runjump.SetActive(false);
-        Run.SetActive(true);
     }
 
     public void leaveGround() {
-        if (isRunning()) {
-            standing.SetActive(false);
-            morphed.SetActive(false);
-            jump.SetActive(false);
-            Runjump.SetActive(true);
-            Run.SetActive(false);
-        } else {
-            standing.SetActive(false);
-            morphed.SetActive(false);
-            jump.SetActive(true);
-            Runjump.SetActive(false);
-            Run.SetActive(false);
-        }
+        airController.SetActive(true);
+        groundController.SetActive(false);
+        morphed.SetActive(false);
     }
 
     public void deMorph() {
@@ -163,12 +135,8 @@ public class PlayerState : MonoBehaviour
     }
 
     public void morph() {
-        if (isGrounded()) {
-            standing.SetActive(false);
-            morphed.SetActive(true);
-            jump.SetActive(false);
-            Runjump.SetActive(false);
-            Run.SetActive(false);
-        }
+        airController.SetActive(false);
+        groundController.SetActive(false);
+        morphed.SetActive(true);
     }
 }

@@ -17,11 +17,10 @@ public class Takedamage : MonoBehaviour
                 return;
             }
             PlayerState.instance.loseHealth(8);
-            // PlayerState.instance.hitGround();
 
             StartCoroutine(becomegod());
             StartCoroutine(blink(spriteBlinkingTimes));
-            // StartCoroutine(knock_back(other.transform.position));
+            StartCoroutine(knock_back(other.transform.position));
         }
     }
 
@@ -53,12 +52,8 @@ public class Takedamage : MonoBehaviour
         yield return new WaitForSeconds(spriteBlinkingMiniDuration * spriteBlinkingTimes);
         PlayerState.instance.isGodMode = false;
     }
-
     void setVisibilityOfAllChildren(bool visible) {
-        SpriteRenderer sr;
-        foreach (Transform child in transform) {
-            sr = child.gameObject.GetComponent<SpriteRenderer>();
-            if (sr != null) sr.color = (visible) ? Color.white : Color.grey;
-        }
+        RendererChildren sr = gameObject.GetComponent<RendererChildren>();
+        sr.setColorOfAllChildren((visible) ? Color.white : Color.grey);
     }
 }

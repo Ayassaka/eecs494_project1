@@ -9,13 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 226024969}
-  - component: {fileID: 226024972}
   - component: {fileID: 226024970}
-  - component: {fileID: 6776316226491235429}
   - component: {fileID: 8827803725768753996}
   - component: {fileID: 984540688}
-  - component: {fileID: 1833997432401503793}
-  - component: {fileID: 9154747140181370219}
+  - component: {fileID: 1740957370814991269}
   m_Layer: 9
   m_Name: Run
   m_TagString: Untagged
@@ -30,27 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226024968}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1744523028799146973}
-  m_RootOrder: 6
+  m_Father: {fileID: 6791364419848066348}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &226024972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 226024968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25d365339a39b514699fbc7b301b7dc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpPower: 15
-  isRunning: 0
 --- !u!136 &226024970
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -65,25 +48,6 @@ CapsuleCollider:
   m_Height: 1.8
   m_Direction: 1
   m_Center: {x: 0.1, y: -0.25, z: 0}
---- !u!114 &6776316226491235429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 226024968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 042bc6ac3de1d5941af785208d883488, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 5535088667609010623, guid: 09a46a71fd6d7e74e983aa6358e88daf,
-    type: 3}
-  missilePrefab: {fileID: 5535088667609010623, guid: d0f7883bb96350b4683d8b75e6487cce,
-    type: 3}
-  firePostionUpward: {fileID: 4486607504421049936}
-  firePostionForward: {fileID: 2134052674325505103}
-  bulletSpeed: 10
 --- !u!212 &8827803725768753996
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -153,21 +117,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1833997432401503793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 226024968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25d365339a39b514699fbc7b301b7dc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpPower: 15
-  isRunning: 1
---- !u!114 &9154747140181370219
+--- !u!114 &1740957370814991269
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -191,8 +141,7 @@ GameObject:
   - component: {fileID: 251753410}
   - component: {fileID: 251753409}
   - component: {fileID: 1515190624}
-  - component: {fileID: 2706676199046318927}
-  - component: {fileID: 5667845844762105133}
+  - component: {fileID: 3760106770218045334}
   m_Layer: 9
   m_Name: RunJump
   m_TagString: Untagged
@@ -207,12 +156,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 251753407}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1744523028799146973}
-  m_RootOrder: 5
+  m_Father: {fileID: 7853141400049698564}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &251753410
 SphereCollider:
@@ -296,7 +245,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &2706676199046318927
+--- !u!114 &3760106770218045334
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -305,28 +254,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 251753407}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fe8701cd924cbe45a99eb9a3d0673c5, type: 3}
+  m_Script: {fileID: 11500000, guid: 26a21687961d7f3408cb4d5edb4ae091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5667845844762105133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 251753407}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 042bc6ac3de1d5941af785208d883488, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 5535088667609010623, guid: 09a46a71fd6d7e74e983aa6358e88daf,
-    type: 3}
-  missilePrefab: {fileID: 5535088667609010623, guid: d0f7883bb96350b4683d8b75e6487cce,
-    type: 3}
-  firePostionUpward: {fileID: 4486607504421049936}
-  firePostionForward: {fileID: 2134052674325505103}
-  bulletSpeed: 10
 --- !u!1 &536296007
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,8 +268,6 @@ GameObject:
   - component: {fileID: 536296008}
   - component: {fileID: 536296012}
   - component: {fileID: 536296011}
-  - component: {fileID: 536296010}
-  - component: {fileID: 536296013}
   - component: {fileID: 3150844814195277556}
   - component: {fileID: 553658541140489599}
   m_Layer: 9
@@ -356,12 +284,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536296007}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1744523028799146973}
-  m_RootOrder: 4
+  m_Father: {fileID: 7853141400049698564}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &536296012
 SpriteRenderer:
@@ -427,37 +355,6 @@ CapsuleCollider:
   m_Height: 1.8
   m_Direction: 1
   m_Center: {x: 0, y: -0.1, z: 0}
---- !u!114 &536296010
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536296007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 042bc6ac3de1d5941af785208d883488, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 5535088667609010623, guid: 09a46a71fd6d7e74e983aa6358e88daf,
-    type: 3}
-  missilePrefab: {fileID: 5535088667609010623, guid: d0f7883bb96350b4683d8b75e6487cce,
-    type: 3}
-  firePostionUpward: {fileID: 4486607504421049936}
-  firePostionForward: {fileID: 2134052674325505103}
-  bulletSpeed: 10
---- !u!114 &536296013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536296007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fe8701cd924cbe45a99eb9a3d0673c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &3150844814195277556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -489,6 +386,88 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1074428913536473929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6791364419848066348}
+  - component: {fileID: 1055834785039457495}
+  - component: {fileID: 5643484333301009037}
+  - component: {fileID: 3086536835232911534}
+  m_Layer: 9
+  m_Name: groundController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6791364419848066348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074428913536473929}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1744523030195542591}
+  - {fileID: 226024969}
+  m_Father: {fileID: 1744523028799146973}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1055834785039457495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074428913536473929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 042bc6ac3de1d5941af785208d883488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 5535088667609010623, guid: 09a46a71fd6d7e74e983aa6358e88daf,
+    type: 3}
+  missilePrefab: {fileID: 5535088667609010623, guid: d0f7883bb96350b4683d8b75e6487cce,
+    type: 3}
+  firePostionUpward: {fileID: 4486607504421049936}
+  firePostionForward: {fileID: 2134052674325505103}
+  bulletSpeed: 10
+--- !u!114 &5643484333301009037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074428913536473929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a491415c89e854cb37bf840162cac7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpPower: 15
+  isRunning: 0
+  standing: {fileID: 1744523030195542590}
+  Run: {fileID: 226024968}
+--- !u!114 &3086536835232911534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074428913536473929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da0e4e7ad118e454f8189e75eb621910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1744523028799146975
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,6 +483,7 @@ GameObject:
   - component: {fileID: 3838466744362072771}
   - component: {fileID: 1174965710}
   - component: {fileID: 1174965711}
+  - component: {fileID: 5066870321027448728}
   m_Layer: 9
   m_Name: Player
   m_TagString: Untagged
@@ -524,11 +504,9 @@ Transform:
   m_Children:
   - {fileID: 2134052674325505103}
   - {fileID: 4486607504421049936}
-  - {fileID: 1744523030195542591}
+  - {fileID: 6791364419848066348}
   - {fileID: 8262173700148328632}
-  - {fileID: 536296008}
-  - {fileID: 251753408}
-  - {fileID: 226024969}
+  - {fileID: 7853141400049698564}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -573,7 +551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Movespeed: 5
-  JumpingMovespeed: 3
+  JumpingMovespeed: 3.5
 --- !u!114 &3838466744362072771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -589,14 +567,14 @@ MonoBehaviour:
   wallLayer:
     serializedVersion: 2
     m_Bits: 2048
-  standing: {fileID: 1744523030195542590}
   morphed: {fileID: 9067111262252301621}
-  jump: {fileID: 536296007}
-  Runjump: {fileID: 251753407}
-  Run: {fileID: 226024968}
+  airController: {fileID: 6087644966805995084}
+  groundController: {fileID: 1074428913536473929}
   healthtext: {fileID: 0}
   missiletext: {fileID: 0}
   isJumping: 0
+  HorizontalInertia: 0
+  controlable: 1
   isGodMode: 0
   isLongbeam: 0
   MissileMode: 0
@@ -629,7 +607,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteBlinkingMiniDuration: 0.05
-  spriteBlinkingTimes: 5
+  spriteStunDuration: 0.2
+  spriteInertiaDuration: 0.3
+  spriteBlinkingTimes: 10
+  knockBackPower: 350
+--- !u!114 &5066870321027448728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744523028799146975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da0e4e7ad118e454f8189e75eb621910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1744523030195542590
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,10 +634,8 @@ GameObject:
   - component: {fileID: 1744523030195542591}
   - component: {fileID: 1744523030195542589}
   - component: {fileID: 1744523030195542588}
-  - component: {fileID: 5636917263766873045}
-  - component: {fileID: 6914776821799265152}
   - component: {fileID: 306467225373683266}
-  - component: {fileID: 5134952821250209840}
+  - component: {fileID: 3415011771402652955}
   m_Layer: 9
   m_Name: Standing
   m_TagString: Untagged
@@ -659,12 +650,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744523030195542590}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1744523028799146973}
-  m_RootOrder: 2
+  m_Father: {fileID: 6791364419848066348}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1744523030195542589
 SpriteRenderer:
@@ -729,39 +720,6 @@ CapsuleCollider:
   m_Height: 1.8
   m_Direction: 1
   m_Center: {x: 0.1, y: -0.25, z: 0}
---- !u!114 &5636917263766873045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1744523030195542590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 042bc6ac3de1d5941af785208d883488, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 5535088667609010623, guid: 09a46a71fd6d7e74e983aa6358e88daf,
-    type: 3}
-  missilePrefab: {fileID: 5535088667609010623, guid: d0f7883bb96350b4683d8b75e6487cce,
-    type: 3}
-  firePostionUpward: {fileID: 4486607504421049936}
-  firePostionForward: {fileID: 2134052674325505103}
-  bulletSpeed: 10
---- !u!114 &6914776821799265152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1744523030195542590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25d365339a39b514699fbc7b301b7dc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpPower: 15
-  isRunning: 0
 --- !u!95 &306467225373683266
 Animator:
   serializedVersion: 3
@@ -781,7 +739,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &5134952821250209840
+--- !u!114 &3415011771402652955
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -823,6 +781,87 @@ Transform:
   m_Father: {fileID: 1744523028799146973}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6087644966805995084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7853141400049698564}
+  - component: {fileID: 4056663762523529313}
+  - component: {fileID: 8272757446535428924}
+  - component: {fileID: 1020081431979650575}
+  m_Layer: 9
+  m_Name: airController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7853141400049698564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6087644966805995084}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 536296008}
+  - {fileID: 251753408}
+  m_Father: {fileID: 1744523028799146973}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4056663762523529313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6087644966805995084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe8701cd924cbe45a99eb9a3d0673c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jump: {fileID: 536296007}
+  Runjump: {fileID: 251753407}
+  rollHeightOffset: 1
+--- !u!114 &8272757446535428924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6087644966805995084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 042bc6ac3de1d5941af785208d883488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 5535088667609010623, guid: 09a46a71fd6d7e74e983aa6358e88daf,
+    type: 3}
+  missilePrefab: {fileID: 5535088667609010623, guid: d0f7883bb96350b4683d8b75e6487cce,
+    type: 3}
+  firePostionUpward: {fileID: 4486607504421049936}
+  firePostionForward: {fileID: 2134052674325505103}
+  bulletSpeed: 10
+--- !u!114 &1020081431979650575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6087644966805995084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da0e4e7ad118e454f8189e75eb621910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8117612327091151621
 GameObject:
   m_ObjectHideFlags: 0

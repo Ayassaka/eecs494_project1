@@ -16,12 +16,15 @@ public class PlayerRun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 newVelocity = rigid.velocity;
-        if (PlayerState.instance.isJumping) {
-            newVelocity.x = Input.GetAxis("Horizontal") * JumpingMovespeed;
-        } else {
-            newVelocity.x = Input.GetAxis("Horizontal") * Movespeed;
+        if (PlayerState.instance.controlable) {
+            if (PlayerState.instance.HorizontalInertia && Input.GetAxis("Horizontal") == 0) return;
+            Vector3 newVelocity = rigid.velocity;
+            if (PlayerState.instance.isJumping) {
+                newVelocity.x = Input.GetAxis("Horizontal") * JumpingMovespeed;
+            } else {
+                newVelocity.x = Input.GetAxis("Horizontal") * Movespeed;
+            }
+            rigid.velocity = newVelocity;
         }
-        rigid.velocity = newVelocity;
     }
 }
