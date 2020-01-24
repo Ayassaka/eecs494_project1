@@ -131,7 +131,7 @@ MonoBehaviour:
   stunColor: {r: 1, g: 0.495283, b: 0.495283, a: 1}
   WallLayer:
     serializedVersion: 2
-    m_Bits: 2048
+    m_Bits: 10240
   turningPoint: {fileID: 2580358332783080021}
   speed: 3
 --- !u!95 &2580358331918380333

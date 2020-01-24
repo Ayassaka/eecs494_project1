@@ -53,7 +53,7 @@ public class Takedamage : MonoBehaviour
         PlayerState.instance.isGodMode = false;
     }
     void setVisibilityOfAllChildren(bool visible) {
-        RendererChildren sr = gameObject.GetComponent<RendererChildren>();
+        ForAllChildren sr = gameObject.GetComponent<ForAllChildren>();
         sr.setColorOfAllChildren((visible) ? Color.white : Color.grey);
     }
 }

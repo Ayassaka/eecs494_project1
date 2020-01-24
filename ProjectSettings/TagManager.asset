@@ -24,7 +24,7 @@ TagManager:
   - Monster
   - Wall
   - PickUp
-  - 
+  - MonsterWall
   - 
   - 
   - 
@@ -47,9 +47,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Backgorund
-    uniqueID: 35803487
+  - name: Background
+    uniqueID: 3175085653
     locked: 0
   - name: Foregorund
     uniqueID: 1582152669
+    locked: 0
+  - name: Map
+    uniqueID: 35803487
     locked: 0

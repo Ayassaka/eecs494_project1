@@ -48,10 +48,10 @@ public class PlayerState : MonoBehaviour
     void toggleMissileMode() {
         if (MissileMode) {
             MissileMode = false;
-            gameObject.GetComponent<RendererChildren>().setColorOfAllChildren(Color.white);
+            gameObject.GetComponent<ForAllChildren>().setColorOfAllChildren(Color.white);
         } else {
             MissileMode = true;
-            gameObject.GetComponent<RendererChildren>().setColorOfAllChildren(Color.cyan);
+            gameObject.GetComponent<ForAllChildren>().setColorOfAllChildren(Color.cyan);
         }
     }
 
@@ -127,9 +127,11 @@ public class PlayerState : MonoBehaviour
     public void deMorph() {
         if (isGrounded()) {
             if (!isStuck()) {
+                gameObject.transform.Translate(Vector3.up * .5f);
                 hitGround();
             }
         } else {
+            gameObject.transform.Translate(Vector3.up * .5f);
             leaveGround();
         }
     }
