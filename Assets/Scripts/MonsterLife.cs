@@ -2,10 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IStunable
-{
-    IEnumerator stun(float time);
-}
 public class MonsterLife : MonoBehaviour
 {
     public int hitPoints;
@@ -15,7 +11,7 @@ public class MonsterLife : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Bullet")) {
             takeDamage(1);
-            StartCoroutine(this.GetComponent<IStunable>().stun(.1f));
+            StartCoroutine(this.GetComponent<Stunable>().stun(.1f));
         } else if (other.CompareTag("Missile")) {
             die();
         }

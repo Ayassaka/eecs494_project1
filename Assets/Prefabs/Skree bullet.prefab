@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 2305872286792690389}
   - component: {fileID: 2305872286792690388}
   - component: {fileID: 2305872286792690391}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Skree bullet
-  m_TagString: skreebullet
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

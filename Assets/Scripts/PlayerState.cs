@@ -15,7 +15,7 @@ public class PlayerState : MonoBehaviour
     public bool isJumping = false;
 
     public bool HorizontalInertia = false;
-    public bool controlable = true;
+    int stunned = 0;
     public bool isGodMode = false;
     public static PlayerState instance;
     public bool isLongbeam = false;
@@ -40,7 +40,7 @@ public class PlayerState : MonoBehaviour
             gainMissile(max_missile);
         }
         // Missile Mode
-        if (PlayerState.instance.controlable && Input.GetKeyDown(KeyCode.LeftShift)) {
+        if (PlayerState.instance.isControlable() && Input.GetKeyDown(KeyCode.LeftShift)) {
             toggleMissileMode();
         }
     }
@@ -140,5 +140,14 @@ public class PlayerState : MonoBehaviour
         airController.SetActive(false);
         groundController.SetActive(false);
         morphed.SetActive(true);
+    }
+
+    public bool isControlable() {
+        return stunned == 0;
+    }
+
+    public void setControlable(bool b) {
+        if (b) stunned--;
+        else stunned++; 
     }
 }

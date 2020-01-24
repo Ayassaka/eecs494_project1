@@ -11,7 +11,7 @@ public class PlayerDirection : MonoBehaviour
     
     void Update()
     {
-        if (!PlayerState.instance.controlable) return;
+        if (!PlayerState.instance.isControlable()) return;
         float axis_h = Input.GetAxis("Horizontal");
         if (facing_right) {
             if (axis_h < 0) {

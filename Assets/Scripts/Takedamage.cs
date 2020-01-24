@@ -31,10 +31,10 @@ public class Takedamage : MonoBehaviour
         
         gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
         gameObject.GetComponent<Rigidbody>().AddForce(direction * knockBackPower);
-        PlayerState.instance.controlable = false;
+        PlayerState.instance.setControlable(false);
         PlayerState.instance.HorizontalInertia = true;
         yield return new WaitForSeconds(spriteStunDuration);
-        PlayerState.instance.controlable = true;
+        PlayerState.instance.setControlable(true);
         yield return new WaitForSeconds(spriteInertiaDuration - spriteStunDuration);
         PlayerState.instance.HorizontalInertia = false;
     }

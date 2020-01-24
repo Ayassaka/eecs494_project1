@@ -4,19 +4,19 @@ using UnityEngine;
 
 
 
-public class ZoomerMovement : MonoBehaviour, IStunable
+public class ZoomerMovement : MonoBehaviour
 {
-    public Color stunColor;
+    // SpriteRenderer sr;
+    // public Color stunColor;
+        // sr = this.GetComponent<SpriteRenderer>();
     public LayerMask WallLayer;
     public Transform turningPoint;
     public float speed = 5;
     Rigidbody rb;
-    SpriteRenderer sr;
     bool turning = false;
     // Start is called before the first frame update
     void Start()
     {
-        sr = this.GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody>();
         rb.velocity = this.transform.right * speed;
     }
@@ -40,11 +40,11 @@ public class ZoomerMovement : MonoBehaviour, IStunable
         }
     }
 
-    public IEnumerator stun(float time) {
-        rb.velocity = Vector3.zero;
-        sr.color = stunColor;
-        yield return new WaitForSeconds(time);
-        rb.velocity = this.transform.right * speed;
-        sr.color = Color.white;
-    }
+    // public IEnumerator stun(float time) {
+    //     rb.velocity = Vector3.zero;
+    //     sr.color = stunColor;
+    //     yield return new WaitForSeconds(time);
+    //     rb.velocity = this.transform.right * speed;
+    //     sr.color = Color.white;
+    // }
 }

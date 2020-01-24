@@ -8,13 +8,15 @@ public class SkreeMovement : MonoBehaviour
     private float velocityVertical = -8;
     public LayerMask wallLayer;
     public GameObject prefab;
+    bool grounded = false;
     private bool hasInstantiate = false;
     Rigidbody rb;
     void Start() {
         rb = this.GetComponent<Rigidbody>();
     }
     void Update()
-    {
+    {   
+        if (grounded) return;
         if (!isGrounded()) {
             if (detectplayer()) {
                 Vector3 newVelocity = rb.velocity;
@@ -24,6 +26,7 @@ public class SkreeMovement : MonoBehaviour
             }
         } else {
             rb.velocity = Vector3.zero;
+            grounded = true;
             if (!hasInstantiate) {
                 StartCoroutine(blast());
             }
@@ -47,11 +50,10 @@ public class SkreeMovement : MonoBehaviour
     }
     public bool isGrounded() {
         Collider col = this.GetComponent<Collider>();
-        Vector3 zwxof = Vector3.up * 0.2f;
-        Ray ray = new Ray(col.bounds.center + zwxof, Vector3.down);
-        float radius = col.bounds.extents.x + 0.05f;
-        float fullDistance = 0.2f;
-        if (Physics.SphereCast(ray, radius, fullDistance + 0.2f, wallLayer)) {
+        float offset = .3f;
+        Ray ray = new Ray(col.bounds.center + Vector3.up * offset, Vector3.down);
+        float radius = col.bounds.extents.x + .05f;
+        if (Physics.SphereCast(ray, radius, offset, wallLayer)) {
             return true;
         }
         return false;

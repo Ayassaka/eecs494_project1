@@ -7,11 +7,11 @@ public class DoorBlueCoverControl : MonoBehaviour
     public GameObject doorCover;
     public float breakTime = 3f;
     public void breakCover() {
-        StartCoroutine(_break_cover());
+        StartCoroutine(_break_cover(breakTime));
     }
-    IEnumerator _break_cover() {
+    public IEnumerator _break_cover(float _breakTime) {
         doorCover.SetActive(false);
-        yield return new WaitForSeconds(breakTime);
+        yield return new WaitForSeconds(_breakTime);
         doorCover.SetActive(true);
     }
 }

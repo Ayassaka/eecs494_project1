@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2580358331918380242}
   - component: {fileID: 2580358331918380333}
   - component: {fileID: 3039881246180621926}
+  - component: {fileID: -8747881321082139199}
   m_Layer: 10
   m_Name: Zoomer
   m_TagString: enemy
@@ -128,7 +129,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09967d6e25f70af4a9ddbae0e018bdd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stunColor: {r: 1, g: 0.495283, b: 0.495283, a: 1}
   WallLayer:
     serializedVersion: 2
     m_Bits: 10240
@@ -172,6 +172,19 @@ MonoBehaviour:
   dropRate:
   - 0.35
   - 0.25
+--- !u!114 &-8747881321082139199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2580358331918380332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4520d7ac2e9d5fa4f921dceb0e2c715a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stunColor: {r: 0.49803922, g: 0, b: 0, a: 1}
 --- !u!1 &2580358332783080020
 GameObject:
   m_ObjectHideFlags: 0

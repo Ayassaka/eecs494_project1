@@ -26,13 +26,13 @@ public class PlayerGroundController : MonoBehaviour
     void Update()
     {
         if (PlayerState.instance.isGrounded()) {
-            if (PlayerState.instance.controlable && Input.GetKeyDown(KeyCode.Z)) {
+            if (PlayerState.instance.isControlable() && Input.GetKeyDown(KeyCode.Z)) {
                 Vector3 newVelocity = rigid.velocity;
                 newVelocity.y = jumpPower;
                 rigid.velocity = newVelocity;
                 PlayerState.instance.isJumping = true;
                 PlayerState.instance.leaveGround();
-            } else if (PlayerState.instance.controlable && Input.GetKeyDown(KeyCode.DownArrow) && PlayerState.instance.isGrounded()) {
+            } else if (PlayerState.instance.isControlable() && Input.GetKeyDown(KeyCode.DownArrow) && PlayerState.instance.isGrounded()) {
                 PlayerState.instance.morph();
             } else if (PlayerState.instance.isRunning() != isRunning) {
                 isRunning = !isRunning;

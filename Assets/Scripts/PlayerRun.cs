@@ -16,7 +16,7 @@ public class PlayerRun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PlayerState.instance.controlable) {
+        if (PlayerState.instance.isControlable()) {
             if (PlayerState.instance.HorizontalInertia && Input.GetAxis("Horizontal") == 0) return;
             Vector3 newVelocity = rigid.velocity;
             if (PlayerState.instance.isJumping) {

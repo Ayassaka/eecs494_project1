@@ -46,7 +46,7 @@ public class PlayerAirController : MonoBehaviour
             }
         }
         if (rigid.velocity.y <= 0) isRising = false;
-        if (isRising && PlayerState.instance.controlable && Input.GetKeyUp(KeyCode.Z)) {
+        if (isRising && PlayerState.instance.isControlable() && Input.GetKeyUp(KeyCode.Z)) {
             Vector3 newVelocity = rigid.velocity;
             newVelocity.y = 0;
             rigid.velocity = newVelocity;
