@@ -10,6 +10,7 @@ TagManager:
   - missilePickUp
   - healthPickUp
   - Missile
+  - skreebullet
   layers:
   - Default
   - TransparentFX
