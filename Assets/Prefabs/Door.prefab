@@ -54,6 +54,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6810341802367158233, guid: 943254c6b152e874b9429549fc017096,
         type: 3}
+      propertyPath: transportDuration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810341802367158233, guid: 943254c6b152e874b9429549fc017096,
+        type: 3}
+      propertyPath: cameraMoveDuration
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810341802367158233, guid: 943254c6b152e874b9429549fc017096,
+        type: 3}
       propertyPath: opposingCover
       value: 
       objectReference: {fileID: 2101190356906627112}
@@ -144,6 +154,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2101190356933300536}
     m_Modifications:
+    - target: {fileID: 6431241353450688277, guid: 40e8e535f258817449a9b21776545d3e,
+        type: 3}
+      propertyPath: transportDuration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6431241353450688277, guid: 40e8e535f258817449a9b21776545d3e,
+        type: 3}
+      propertyPath: cameraMoveDuration
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6431241353450688277, guid: 40e8e535f258817449a9b21776545d3e,
         type: 3}
       propertyPath: opposingCover

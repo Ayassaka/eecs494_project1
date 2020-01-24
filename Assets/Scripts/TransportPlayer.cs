@@ -6,6 +6,7 @@ public class TransportPlayer : MonoBehaviour
 {
     public float transportDistance = 3f;
     public float transportDuration = 3f;
+    public float cameraMoveDuration = 1.8f;
     public float opposingCoverOpenDuration = .5f;
 
 
@@ -20,6 +21,7 @@ public class TransportPlayer : MonoBehaviour
         if (other.CompareTag("Player") && !dc.isTransporting()) {
             StartCoroutine(transporting());
             StartCoroutine(open_opposing_cover());
+            StartCoroutine(wait_and_move_camera());
         }
     }
 
@@ -46,5 +48,14 @@ public class TransportPlayer : MonoBehaviour
     IEnumerator open_opposing_cover() {
         yield return new WaitForSeconds(transportDuration - opposingCoverOpenDuration);
         yield return opposingCover._break_cover(opposingCoverOpenDuration);
+    }
+
+    IEnumerator wait_and_move_camera() {
+        yield return new WaitForSeconds((transportDuration - cameraMoveDuration) / 2);
+        
+        float h_temp = (transportDistance > 0) ? 8 : -8;
+        Vector3 from = transform.position + new Vector3(-h_temp, -1, -10);
+        Vector3 to = transform.position + new Vector3(h_temp, -1, -10);
+        yield return Camera.main.GetComponent<CameraFollower>().moveCameraOverTime(from, to, cameraMoveDuration);
     }
 }
