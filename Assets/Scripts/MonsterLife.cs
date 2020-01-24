@@ -30,6 +30,7 @@ public class MonsterLife : MonoBehaviour
 
     void die() {
         float dropLuck = Random.Range(0f, 1f);
+        Destroy(this.gameObject);
         for (int i = 0; i < dropPrefabs.Length; ++i) {
             dropLuck -= dropRate[i];
             if (dropLuck <= 0) {
@@ -37,7 +38,7 @@ public class MonsterLife : MonoBehaviour
                 break;
             }
         }
-        Destroy(this.gameObject);
+        
         // TODO: blast
     }
 }
