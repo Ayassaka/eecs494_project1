@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class PickupLife : MonoBehaviour
 {
-    public float lifeTime = 10f;
+    public float lifeTime = float.PositiveInfinity;
     void OnEnable()
     {
-        Destroy(this.gameObject, lifeTime);
+        if (!float.IsPositiveInfinity(lifeTime)) {
+            Destroy(this.gameObject, lifeTime);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void OnTriggerEnter(Collider other) {
+        // if (other.CompareTag("Player")) {
+        Destroy(this.gameObject);
+        // }
     }
 }

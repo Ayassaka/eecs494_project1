@@ -37,10 +37,10 @@ TextureImporter:
     second: NES - Metroid - Items & Objects_10
   - first:
       213: 2315101361581441176
-    second: NES - Metroid - Items & Objects_11
+    second: MissilePowerUp
   - first:
       213: -194982832379708253
-    second: NES - Metroid - Items & Objects_12
+    second: MorphBallPowerUp
   - first:
       213: -8879885019924593796
     second: NES - Metroid - Items & Objects_13
@@ -893,7 +893,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - Metroid - Items & Objects_11
+      name: MissilePowerUp
       rect:
         serializedVersion: 2
         x: 58
@@ -914,7 +914,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - Metroid - Items & Objects_12
+      name: MorphBallPowerUp
       rect:
         serializedVersion: 2
         x: 79

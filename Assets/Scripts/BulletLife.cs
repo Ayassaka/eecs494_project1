@@ -7,7 +7,7 @@ public class BulletLife : MonoBehaviour
     public float lifeTime;
     void Start()
     {
-        if (!PlayerState.instance.isLongbeam) {
+        if (!PlayerState.instance.hasLongBeam) {
             Destroy(this.gameObject, lifeTime);
         }
     }
