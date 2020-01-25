@@ -13,6 +13,7 @@ TagManager:
   - LongBeamPowerUp
   - MissilePowerUp
   - MorphBallPowerUp
+  - Wall
   layers:
   - Default
   - TransparentFX

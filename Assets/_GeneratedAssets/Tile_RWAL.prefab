@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4182004871049707683}
   m_Layer: 11
   m_Name: Tile_RWAL
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 35803487
-  m_SortingLayer: 1
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 2677730878095162633, guid: 01a0acccf6e503544baf073198aa4414,
     type: 3}
