@@ -22,6 +22,13 @@ public class TransportPlayer : MonoBehaviour
             StartCoroutine(transporting());
             StartCoroutine(open_opposing_cover());
             StartCoroutine(wait_and_move_camera());
+            if (transportDistance > 0) {
+                GetComponentInParent<DoorController>().right.gameObject.SetActive(true);
+                Camera.main.GetComponent<CameraFollower>().changeRoomTo(GetComponentInParent<DoorController>().right);
+            } else {
+                GetComponentInParent<DoorController>().left.gameObject.SetActive(true);
+                Camera.main.GetComponent<CameraFollower>().changeRoomTo(GetComponentInParent<DoorController>().left);
+            }
         }
     }
 
@@ -43,6 +50,12 @@ public class TransportPlayer : MonoBehaviour
         }
 
         dc.setTranporting(false);
+
+        if (transportDistance > 0) {
+            GetComponentInParent<DoorController>().left.gameObject.SetActive(false);
+        } else {
+            GetComponentInParent<DoorController>().right.gameObject.SetActive(false);
+        }
     }
 
     IEnumerator open_opposing_cover() {
@@ -52,7 +65,7 @@ public class TransportPlayer : MonoBehaviour
 
     IEnumerator wait_and_move_camera() {
         yield return new WaitForSeconds((transportDuration - cameraMoveDuration) / 2);
-        
+
         float h_temp = (transportDistance > 0) ? 8 : -8;
         Vector3 from = transform.position + new Vector3(-h_temp, -1, -10);
         Vector3 to = transform.position + new Vector3(h_temp, -1, -10);

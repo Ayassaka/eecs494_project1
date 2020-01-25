@@ -5,6 +5,8 @@ using UnityEngine;
 public class DoorController : MonoBehaviour
 {
     bool transporting = false;
+    public RoomInfo left;
+    public RoomInfo right;
 
     public bool isTransporting() {
         return transporting;

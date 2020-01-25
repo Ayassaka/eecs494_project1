@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7238546194284096076}
   - component: {fileID: 7238546194284096077}
   m_Layer: 0
-  m_Name: Door
+  m_Name: LDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -168,7 +168,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d47976feb8864d84e9260b0b10a1a046, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transportDistance: 3
   transportDuration: 1
+  cameraMoveDuration: 2
+  opposingCoverOpenDuration: 0.5
+  opposingCover: {fileID: 0}
 --- !u!1 &8962475999933260825
 GameObject:
   m_ObjectHideFlags: 0

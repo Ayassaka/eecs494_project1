@@ -32,6 +32,14 @@ public class PlayerAirController : MonoBehaviour
     }
     void Update()
     {
+        if (isRising && PlayerState.instance.isControlable() && Input.GetKeyUp(KeyCode.Z)) {
+            Vector3 newVelocity = rigid.velocity;
+            newVelocity.y = 0;
+            rigid.velocity = newVelocity;
+        }
+    }
+
+    private void FixedUpdate() {
         if (!isRolling) {
             if (gameObject.transform.position.y > roll_height) {
                 isRolling = true;
@@ -46,12 +54,7 @@ public class PlayerAirController : MonoBehaviour
             }
         }
         if (rigid.velocity.y <= 0) isRising = false;
-        if (isRising && PlayerState.instance.isControlable() && Input.GetKeyUp(KeyCode.Z)) {
-            Vector3 newVelocity = rigid.velocity;
-            newVelocity.y = 0;
-            rigid.velocity = newVelocity;
-        }
-        if (PlayerState.instance.isGrounded()) {
+        if (!isRising && PlayerState.instance.isGrounded()) {
             PlayerState.instance.hitGround();
         }
     }

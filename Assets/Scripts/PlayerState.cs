@@ -87,8 +87,8 @@ public class PlayerState : MonoBehaviour
     public bool isGrounded() {
         Collider col = this.GetComponentInChildren<Collider>();
         Ray ray = new Ray(col.bounds.center, Vector3.down);
-        float radius = col.bounds.extents.x - 0.05f;
-        float fullDistance = col.bounds.extents.y + 0.05f;
+        float radius = col.bounds.extents.x - 0.1f;
+        float fullDistance = col.bounds.extents.y + 0.01f;
         if (Physics.SphereCast(ray, radius, fullDistance, wallLayer)) {
             return true;
         }
@@ -115,11 +115,13 @@ public class PlayerState : MonoBehaviour
         isJumping = false;
         airController.SetActive(false);
         groundController.SetActive(true);
+        GetComponentInChildren<PlayerGroundController>().enabled = true;
         morphed.SetActive(false);
     }
 
     public void leaveGround() {
         airController.SetActive(true);
+        GetComponentInChildren<PlayerGroundController>().enabled = false;
         groundController.SetActive(false);
         morphed.SetActive(false);
     }

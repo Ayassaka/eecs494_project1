@@ -43,5 +43,6 @@ public class CameraFollower : MonoBehaviour
             transform.position = Vector3.LerpUnclamped(from, to, progress);
             yield return null;
         }
+        transform.position = to;
     }
 }

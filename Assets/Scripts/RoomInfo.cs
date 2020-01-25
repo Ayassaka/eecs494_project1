@@ -12,8 +12,8 @@ public class RoomInfo : MonoBehaviour
             x >= transform.position.x + width * 16f - 8.5f + freeZoneSize;
     }
 
-    public bool isCameraBoundedVertically(float x, float freeZoneSize) {
-        return x <= transform.position.y + 7f - freeZoneSize ||
-            x >= transform.position.x + height * 15f - 8f + freeZoneSize;
+    public bool isCameraBoundedVertically(float y, float freeZoneSize) {
+        return y <= transform.position.y + 7f - freeZoneSize ||
+            y >= transform.position.y + height * 15f - 8f + freeZoneSize;
     }
 }

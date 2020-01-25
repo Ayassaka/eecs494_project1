@@ -21,7 +21,6 @@ public class PlayerGroundController : MonoBehaviour
         Run.SetActive(isRunning);
         standing.SetActive(!isRunning);
     }
-
     // Update is called once per frame
     void Update()
     {
