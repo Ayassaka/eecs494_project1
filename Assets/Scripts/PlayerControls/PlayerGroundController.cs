@@ -24,6 +24,11 @@ public class PlayerGroundController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (PlayerState.instance.inLava) {
+            jumpPower = 10;
+        } else {
+            jumpPower = 15;
+        }
         if (PlayerState.instance.isGrounded()) {
             if (PlayerState.instance.isControlable() && Input.GetKeyDown(KeyCode.Z)) {
                 Vector3 newVelocity = rigid.velocity;

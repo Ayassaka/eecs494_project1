@@ -10,7 +10,7 @@ public class Takedamage : MonoBehaviour
     public float spriteInertiaDuration = 1f;
     public int spriteBlinkingTimes = 5;
     public float knockBackPower = 50;
-
+    private float inlavaTime = 0;
     private void OnTriggerEnter(Collider other) {
         if (other.tag == "enemy") {
             if (PlayerState.instance.isGodMode) {
@@ -22,12 +22,20 @@ public class Takedamage : MonoBehaviour
             StartCoroutine(blink(spriteBlinkingTimes));
             StartCoroutine(knock_back(other.transform.position));
         }
+        
+    }
+    private void OnTriggerStay(Collider other) {
         if (other.CompareTag("Lava")) {
-            if (PlayerState.instance.isGodMode) {
-                return;
+            if (inlavaTime > 0.2f) {
+                inlavaTime = 0;
+                if (PlayerState.instance.isGodMode) {
+                    return;
+                }
+                PlayerState.instance.loseHealth(1);
+                StartCoroutine(blink(spriteBlinkingTimes));
+            } else {
+                inlavaTime += Time.deltaTime;
             }
-            PlayerState.instance.loseHealth(1);
-            StartCoroutine(blink(spriteBlinkingTimes));
         }
     }
 
