@@ -14,16 +14,21 @@ public class ReoControl : MonoBehaviour
     enum Stage{init, falling, rising, checkrising, wait};
     private float verticalSpeed;
     private float initposy;
+
+    private Animator anim;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         stage = Stage.init;
+        anim = GetComponent<Animator>();
+        anim.SetTrigger("Flap");
     }
 
     // Update is called once per frame
     void Update()
     {
         if (stage == Stage.init) {
+            anim.enabled = false;
             float disx = PlayerState.instance.transform.position.x - transform.position.x;
             verticalSpeed = (PlayerState.instance.transform.position.y - transform.position.y - 0.5f) * scale;
             if (disx < 0 && disx > -5) {
@@ -38,6 +43,8 @@ public class ReoControl : MonoBehaviour
             }
         }
         if (stage == Stage.falling) {
+            anim.enabled = true;
+            anim.SetTrigger("Flap");
             if (initposy > transform.position.y - 1f) {
                 stage = Stage.checkrising;
             } else {
@@ -51,6 +58,7 @@ public class ReoControl : MonoBehaviour
             }
         }
         if (stage == Stage.checkrising) {
+            anim.enabled = true;
             if (PlayerState.instance.transform.position.y > transform.position.y + 0.5f) {
                 stage = Stage.rising;
             } else {
@@ -64,6 +72,7 @@ public class ReoControl : MonoBehaviour
             }
         }
         if (stage == Stage.rising) {
+            anim.enabled = true;
             rb.AddForce(0, 5, 0);
         }
     }

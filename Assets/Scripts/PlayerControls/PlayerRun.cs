@@ -12,11 +12,12 @@ public class PlayerRun : MonoBehaviour
     {
         rigid = this.GetComponent<Rigidbody>();
     }
-
+    
     // Update is called once per frame
     void Update()
     {
-        if (PlayerState.instance.isControlable()) {
+        if (PlayerState.instance.isControlable() && !PlayerState.instance.inLava) {
+            Debug.Log("enter");
             if (PlayerState.instance.HorizontalInertia && Input.GetAxis("Horizontal") == 0) return;
             Vector3 newVelocity = rigid.velocity;
             if (PlayerState.instance.isJumping) {

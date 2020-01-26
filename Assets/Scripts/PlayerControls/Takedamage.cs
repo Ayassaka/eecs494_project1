@@ -22,6 +22,13 @@ public class Takedamage : MonoBehaviour
             StartCoroutine(blink(spriteBlinkingTimes));
             StartCoroutine(knock_back(other.transform.position));
         }
+        if (other.CompareTag("Lava")) {
+            if (PlayerState.instance.isGodMode) {
+                return;
+            }
+            PlayerState.instance.loseHealth(1);
+            StartCoroutine(blink(spriteBlinkingTimes));
+        }
     }
 
     IEnumerator knock_back(Vector3 position) {

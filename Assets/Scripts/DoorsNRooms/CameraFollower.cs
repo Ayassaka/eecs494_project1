@@ -9,9 +9,10 @@ public class CameraFollower : MonoBehaviour
     public float freeZoneSizeY = 1.8f;
     // Update is called once per frame
     void Update()
-    {   
+    {
         Vector3 cam_pos = transform.position;
         Vector3 player_pos = PlayerState.instance.transform.position;
+        
         if (!room.isCameraBoundedHorizontally(player_pos.x, freeZoneSizeX)) {
             if (player_pos.x - cam_pos.x < -freeZoneSizeX) {
                 cam_pos.x = player_pos.x + freeZoneSizeX;
