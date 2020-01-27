@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PickupLife : MonoBehaviour
 {
+    public float pauseDuration = 0f;
     public float lifeTime = float.PositiveInfinity;
     void OnEnable()
     {
@@ -14,7 +15,14 @@ public class PickupLife : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) {
         // if (other.CompareTag("Player")) {
-        Destroy(this.gameObject);
+        StartCoroutine(pause_game());
         // }
+    }
+
+    IEnumerator pause_game() {
+        Time.timeScale = 0f;
+        yield return new WaitForSecondsRealtime(pauseDuration);
+        Time.timeScale = 1f;
+        Destroy(this.gameObject);
     }
 }
