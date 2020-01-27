@@ -25,7 +25,7 @@ public class PlayerGroundController : MonoBehaviour
     void Update()
     {
         if (PlayerState.instance.inLava) {
-            jumpPower = 10;
+            jumpPower = 12;
         } else {
             jumpPower = 15;
         }

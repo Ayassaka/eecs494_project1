@@ -15,6 +15,7 @@ public class PlayerState : MonoBehaviour
     public Text missiletext;
     public bool isJumping = false;
     public bool inLava = false;
+    public int lavacount = 0;
 
     public bool HorizontalInertia = false;
     int stunned = 0;
@@ -28,6 +29,7 @@ public class PlayerState : MonoBehaviour
     public int max_health = 99;
     public int missile = 5;
     public int max_missile = 5;
+    
     private void Awake() {
         if (instance == null) {
             instance = this;
@@ -156,5 +158,21 @@ public class PlayerState : MonoBehaviour
     public void setControlable(bool b) {
         if (b) stunned--;
         else stunned++; 
+    }
+    public void enterlava() {
+        lavacount++;
+        if (lavacount == 0) {
+            inLava = false;
+        } else {
+            inLava = true;
+        }
+    }
+    public void exitlava() {
+        lavacount--;
+        if (lavacount == 0) {
+            inLava = false;
+        } else {
+            inLava = true;
+        }
     }
 }

@@ -37,9 +37,7 @@ public class PlayerAirController : MonoBehaviour
             newVelocity.y = 0;
             rigid.velocity = newVelocity;
         }
-    }
 
-    private void FixedUpdate() {
         if (!isRolling) {
             if (gameObject.transform.position.y > roll_height) {
                 isRolling = true;
@@ -58,4 +56,6 @@ public class PlayerAirController : MonoBehaviour
             PlayerState.instance.hitGround();
         }
     }
+
+    
 }

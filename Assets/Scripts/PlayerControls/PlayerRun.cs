@@ -24,7 +24,6 @@ public class PlayerRun : MonoBehaviour
             Movespeed = 5;
         }
         if (PlayerState.instance.isControlable()) {
-            Debug.Log("enter");
             if (PlayerState.instance.HorizontalInertia && Input.GetAxis("Horizontal") == 0) return;
             Vector3 newVelocity = rigid.velocity;
             if (PlayerState.instance.isJumping) {
