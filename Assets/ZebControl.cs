@@ -10,7 +10,7 @@ public class ZebControl : MonoBehaviour
     private Rigidbody rb;
     private void Start() {
         rb = GetComponent<Rigidbody>();
-        rb.velocity = new Vector3(0, 2, 0);
+        rb.velocity = new Vector3(0, 4, 0);
         float disx = PlayerState.instance.transform.position.x - transform.position.x;
         if (disx > 0) {
             Vector3 newScale = this.transform.localScale;
