@@ -5,7 +5,7 @@ using UnityEngine;
 public class SkreebulletControl : MonoBehaviour
 {
     // Start is called before the first frame update
-    private float lifeTime = 0.1f;
+    private float lifeTime = 0.18f;
     public Vector3 Speed;
     private void OnEnable() {
         Destroy(this.gameObject, lifeTime);
