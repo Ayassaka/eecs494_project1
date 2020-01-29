@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1c3d40014dc26b4bae8014ca14869b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 5
+  hitPoints: 3
   dropPrefabs:
   - {fileID: 8939137139834049470, guid: 1b091b6c2b061654b9334c9152194da4, type: 3}
   - {fileID: 6674732522599348622, guid: 322b6a10ae064b8458186198756cee9c, type: 3}

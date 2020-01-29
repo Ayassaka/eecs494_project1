@@ -23,7 +23,9 @@ public class LavaEnter : MonoBehaviour
     //     }
     // }
     private void OnTriggerStay(Collider other) {
-        StartCoroutine(lavaStay());
+        if (other.CompareTag("Player")) {
+            StartCoroutine(lavaStay());
+        }
     }
     
     // private void OnTriggerExit(Collider other) {
@@ -43,6 +45,7 @@ public class LavaEnter : MonoBehaviour
     // }
     IEnumerator lavaStay() {
         PlayerState.instance.enterlava();
+        
         yield return new WaitForSeconds(0.1f);
         PlayerState.instance.exitlava();
     }

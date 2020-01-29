@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2587125762241445119}
   - component: {fileID: 2587125762241445104}
-  - component: {fileID: 2587125762241445105}
   - component: {fileID: 2587125762241445118}
   - component: {fileID: 2587125762241445117}
   - component: {fileID: 2587125762241445115}
   - component: {fileID: 6463788248600444131}
+  - component: {fileID: 2616443668055721079}
   m_Layer: 10
   m_Name: Skree
   m_TagString: enemy
@@ -86,19 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!135 &2587125762241445105
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2587125762241445106}
-  m_Material: {fileID: 13400000, guid: dabf1cf971dc04b48b5ee208c5fe4338, type: 2}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.6
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2587125762241445118
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -127,7 +114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1c3d40014dc26b4bae8014ca14869b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 5
+  hitPoints: 3
   dropPrefabs:
   - {fileID: 8939137139834049470, guid: 1b091b6c2b061654b9334c9152194da4, type: 3}
   - {fileID: 6674732522599348622, guid: 322b6a10ae064b8458186198756cee9c, type: 3}
@@ -163,3 +150,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stunColor: {r: 0.49803922, g: 0, b: 0, a: 1}
+--- !u!136 &2616443668055721079
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2587125762241445106}
+  m_Material: {fileID: 13400000, guid: dabf1cf971dc04b48b5ee208c5fe4338, type: 2}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}

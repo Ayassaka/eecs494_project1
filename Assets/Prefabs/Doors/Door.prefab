@@ -502,7 +502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d47976feb8864d84e9260b0b10a1a046, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transportDistance: 3.2
+  transportDistance: 3.5
   transportDuration: 2
   cameraMoveDuration: 1.5
   opposingCoverOpenDuration: 0.5
@@ -918,7 +918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d47976feb8864d84e9260b0b10a1a046, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transportDistance: -3.2
+  transportDistance: -3.5
   transportDuration: 2
   cameraMoveDuration: 1.5
   opposingCoverOpenDuration: 0.5

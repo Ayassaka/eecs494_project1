@@ -108,4 +108,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c35aa7fb621c76438ee21b62893be65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseDuration: 1
   lifeTime: Infinity

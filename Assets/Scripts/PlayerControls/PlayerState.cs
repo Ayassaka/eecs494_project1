@@ -16,7 +16,6 @@ public class PlayerState : MonoBehaviour
     public bool isJumping = false;
     public bool inLava = false;
     public int lavacount = 0;
-
     public bool HorizontalInertia = false;
     int stunned = 0;
     public bool isGodMode = false;
@@ -124,9 +123,10 @@ public class PlayerState : MonoBehaviour
         GetComponentInChildren<PlayerGroundController>().enabled = true;
         morphed.SetActive(false);
     }
-
+    //public AudioClip clip;
     public void leaveGround() {
         airController.SetActive(true);
+        //GetComponent<AudioSourceControl>().JumpSound();
         GetComponentInChildren<PlayerGroundController>().enabled = false;
         groundController.SetActive(false);
         morphed.SetActive(false);

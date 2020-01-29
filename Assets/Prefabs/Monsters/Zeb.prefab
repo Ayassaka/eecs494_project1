@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1424959897194533632}
   - component: {fileID: 1424959897194533694}
   - component: {fileID: 1424959897194533693}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Zeb
   m_TagString: enemy
   m_Icon: {fileID: 0}
