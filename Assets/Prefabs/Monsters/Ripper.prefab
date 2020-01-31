@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6947868879152104210}
   - component: {fileID: 6947868879152104209}
-  - component: {fileID: 6947868879152104208}
   - component: {fileID: 6947868879152104215}
   - component: {fileID: 6947868879152104213}
   - component: {fileID: 6947868879152104214}
+  - component: {fileID: 6652489985662151134}
   m_Layer: 10
   m_Name: Ripper
   m_TagString: enemy
@@ -51,19 +51,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
---- !u!65 &6947868879152104208
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6947868879152104212}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.8, y: 0.6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &6947868879152104215
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -142,3 +129,17 @@ MonoBehaviour:
   WallLayer:
     serializedVersion: 2
     m_Bits: 10240
+--- !u!136 &6652489985662151134
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6947868879152104212}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.25
+  m_Height: 0.875
+  m_Direction: 0
+  m_Center: {x: 0, y: 0, z: 0}

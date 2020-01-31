@@ -10,7 +10,6 @@ public class PlayerState : MonoBehaviour
     public GameObject morphed;
     public GameObject airController;
     public GameObject groundController;
-    public GameObject Lava;
     public Text healthtext;
     public Text missiletext;
     public bool isJumping = false;

@@ -277,7 +277,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &536296008
 Transform:
   m_ObjectHideFlags: 0
@@ -586,7 +586,6 @@ MonoBehaviour:
   morphed: {fileID: 9067111262252301621}
   airController: {fileID: 6087644966805995084}
   groundController: {fileID: 1074428913536473929}
-  Lava: {fileID: 0}
   healthtext: {fileID: 0}
   missiletext: {fileID: 0}
   isJumping: 0
@@ -961,6 +960,7 @@ MonoBehaviour:
   Runjump: {fileID: 251753407}
   rollHeightOffset: 1
   jumpSE: {fileID: 8300000, guid: 7f6ae8b7bf07810419c7f9ad60a65228, type: 3}
+  hook: {fileID: 0}
 --- !u!114 &8272757446535428924
 MonoBehaviour:
   m_ObjectHideFlags: 0

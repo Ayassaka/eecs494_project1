@@ -15,7 +15,7 @@ public class ropeLinker : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         lr.SetPosition(0, from.position);
         lr.SetPosition(1, to.position);
