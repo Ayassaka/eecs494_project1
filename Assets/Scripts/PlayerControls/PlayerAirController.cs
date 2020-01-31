@@ -11,6 +11,7 @@ public class PlayerAirController : MonoBehaviour
     public GameObject Runjump;
     float roll_height = float.PositiveInfinity;
     public float rollHeightOffset = 1;
+    public AudioClip jumpSE;
     bool isRolling;
     void Awake()
     {
@@ -25,10 +26,12 @@ public class PlayerAirController : MonoBehaviour
             if (PlayerState.instance.isRunning()) {
                 roll_height = gameObject.transform.position.y + rollHeightOffset;
             }
+            AudioSource.PlayClipAtPoint(jumpSE, transform.position);
         }
         isRolling = false;
         jump.SetActive(true);
         Runjump.SetActive(false);
+        
     }
     void Update()
     {
@@ -37,6 +40,13 @@ public class PlayerAirController : MonoBehaviour
             newVelocity.y = 0;
             rigid.velocity = newVelocity;
         }
+
+        if (!isRising && PlayerState.instance.isControlable() && Input.GetKeyDown(KeyCode.Z)) {
+            Vector3 newVelocity = rigid.velocity;
+            newVelocity.y = 0;
+            rigid.velocity = newVelocity;
+        }
+
 
         if (!isRolling) {
             if (gameObject.transform.position.y > roll_height) {

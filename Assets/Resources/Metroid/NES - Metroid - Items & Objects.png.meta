@@ -566,6 +566,9 @@ TextureImporter:
   - first:
       213: -1431839591818470237
     second: NES - Metroid - Items & Objects_187
+  - first:
+      213: -479865587470428009
+    second: NES - Metroid - Items & Objects_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -4605,6 +4608,27 @@ TextureImporter:
       bones: []
       spriteID: 919003c86de8b914eacd906d3369dc15
       internalID: -1431839591818470237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Items & Objects_7
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 211
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee23ac211f33824899b45c217e72cc0
+      internalID: -479865587470428009
       vertices: []
       indices: 
       edges: []
