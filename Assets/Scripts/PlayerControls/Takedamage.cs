@@ -17,7 +17,8 @@ public class Takedamage : MonoBehaviour
                 return;
             }
             PlayerState.instance.loseHealth(8);
-
+            PlayerState.instance.Hook.SetActive(false);
+            
             StartCoroutine(becomegod());
             StartCoroutine(blink(spriteBlinkingTimes));
             StartCoroutine(knock_back(other.transform.position));

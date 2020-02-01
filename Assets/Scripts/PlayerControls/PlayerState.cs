@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class PlayerState : MonoBehaviour
 {
     public LayerMask wallLayer;
-
+    public GameObject Hook;
     public GameObject morphed;
     public GameObject airController;
     public GameObject groundController;
@@ -117,6 +117,7 @@ public class PlayerState : MonoBehaviour
     
     public void hitGround() {
         isJumping = false;
+        Hook.SetActive(false);
         airController.SetActive(false);
         groundController.SetActive(true);
         GetComponentInChildren<PlayerGroundController>().enabled = true;

@@ -42,50 +42,53 @@ public class HookControl : MonoBehaviour
     }
     // Start is called before the first frame update
     private void start_swing() {
-        Debug.Log("Start Swing!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        // Debug.Log("Start Swing!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
         transform.position = hit_pos;
         rb.transform.position = hit_pos;
-        Debug.Log("Hook position: " + transform.position);
-        Debug.Log("Player position: " + PlayerState.instance.transform.position);
-        Debug.Log("Anchor position: " + playerAnchor.transform.position);
-        
-        rb.velocity = Vector3.zero;
         rb.isKinematic = true;
-        parb.isKinematic = false;
-        isSwinging = true;
-        
-        playerAnchor.transform.position = PlayerState.instance.transform.position;
-        parb.velocity = prb.velocity;
-        cj.autoConfigureConnectedAnchor = false;
-        cj.connectedBody = rb;
-        cj.anchor = hit_pos - PlayerState.instance.gameObject.transform.position;
-        cj.connectedAnchor = Vector3.zero;
+        // rb.velocity = Vector3.zero;
+        // Debug.Log("Hook position: " + transform.position);
+        // Debug.Log("Player position: " + PlayerState.instance.transform.position);
+        // Debug.Log("Anchor position: " + playerAnchor.transform.position);
+        StartCoroutine(lock_on());
+    }
 
-        Debug.Log("Anchor: " + cj.anchor);
+    IEnumerator lock_on() {
+        parb.isKinematic = false;
+        parb.position = prb.position;
+        parb.velocity = prb.velocity;
+        cj.anchor = - (Quaternion.Inverse(parb.rotation) * (parb.position - transform.position));
+
+        yield return new WaitForFixedUpdate();
+        // cj.autoConfigureConnectedAnchor = true;
+        // cj.connectedBody = rb;
+        // cj.anchor = hit_pos - PlayerState.instance.gameObject.transform.position;
+        
+        
+        // prb.velocity;
+        // cj.autoConfigureConnectedAnchor = false;
+        // cj.connectedBody = rb;
+        cj.anchor = - (Quaternion.Inverse(parb.rotation) * (parb.position - transform.position));
+        cj.connectedAnchor = transform.position;
+
+        // Debug.Log("Anchor: " + cj.anchor);
         cj.xMotion = ConfigurableJointMotion.Locked;
         cj.yMotion = ConfigurableJointMotion.Locked;
         cj.zMotion = ConfigurableJointMotion.Locked;
-        // StartCoroutine(lock_on());
         prb.isKinematic = true;
+        isSwinging = true;
     }
-
-    // IEnumerator lock_on() {
-    //     yield return new WaitForFixedUpdate();
-    //     cj.autoConfigureConnectedAnchor = true;
-    //     cj.connectedBody = rb;
-    //     cj.anchor = hit_pos - PlayerState.instance.gameObject.transform.position;
-    // }
 
     private void FixedUpdate() {
-        Debug.Log("Physics Update.");
+        // Debug.Log("Physics Update.");
     }
 
-    private void OnTriggerEnter(Collider other) {
-        if (!isSwinging && !other.CompareTag("Player")) {
-            Debug.Log(">>>Starting from trigger enter...");
-            start_swing();
-        }
-    }
+    // private void OnTriggerEnter(Collider other) {
+    //     if (!isSwinging && !other.CompareTag("Player")) {
+    //         // Debug.Log(">>>Starting from trigger enter...");
+    //         start_swing();
+    //     }
+    // }
 
     // Update is called once per frame
     void Update()
@@ -94,23 +97,25 @@ public class HookControl : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.Z)) {
             gameObject.SetActive(false);
         }
-        if (!isSwinging) {
+        if (isSwinging) {
+            // Debug.Log("Swing Update!");
+            // Debug.Log("Hook position: " + transform.position);
+            // Debug.Log("Player position: " + PlayerState.instance.transform.position);
+            // Debug.Log("Anchor position: " + playerAnchor.transform.position);
+            // Debug.Log("Anchor: " + cj.anchor);
+            PlayerState.instance.transform.position = playerAnchor.transform.position;
+        } else {
+            parb.position = prb.position;
+            cj.anchor = - (Quaternion.Inverse(parb.rotation) * (parb.position - transform.position));
+            cj.connectedAnchor = transform.position;
             if (transform.position.y > hit_pos.y) {
                 if (will_hit) {
-                    Debug.Log(">>>Starting from raycast...");
+                    // Debug.Log(">>>Starting from raycast...");
                     start_swing();
                 } else {
                     gameObject.SetActive(false);
                 }
             }
-        }
-        if (isSwinging) {
-            Debug.Log("Swing Update!");
-            Debug.Log("Hook position: " + transform.position);
-            Debug.Log("Player position: " + PlayerState.instance.transform.position);
-            Debug.Log("Anchor position: " + playerAnchor.transform.position);
-            Debug.Log("Anchor: " + cj.anchor);
-            PlayerState.instance.transform.position = playerAnchor.transform.position;
         }
     }
 
@@ -128,7 +133,16 @@ public class HookControl : MonoBehaviour
         cj.yMotion = ConfigurableJointMotion.Free;
         cj.zMotion = ConfigurableJointMotion.Free;
     }
+    private void OnDrawGizmos() {
+        Gizmos.color = Color.black;
+        Gizmos.DrawWireSphere(parb.position, 1f);
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(cj.connectedAnchor, 1f);
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(parb.transform.TransformPoint(cj.anchor), .8f);
+    }
 }
+
 
 // TODO : state change (take damage, hit ground etc.)
 // TODO : physics bug
