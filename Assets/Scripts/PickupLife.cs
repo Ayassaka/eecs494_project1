@@ -17,7 +17,9 @@ public class PickupLife : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Player")) {
             StartCoroutine(pause_game());
-            AudioSource.PlayClipAtPoint(clip, transform.position);
+            if (clip != null) {
+                AudioSource.PlayClipAtPoint(clip, transform.position);
+            }
         }
     }
 

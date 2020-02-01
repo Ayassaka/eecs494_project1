@@ -93,7 +93,7 @@ public class HookControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Update.");
+        // Debug.Log("Update.");
         if (Input.GetKeyUp(KeyCode.Z)) {
             gameObject.SetActive(false);
         }
