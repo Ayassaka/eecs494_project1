@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ropeLinker : MonoBehaviour
 {
-    public Transform from;
-    public Transform to;
+    public Rigidbody from;
+    public Rigidbody to;
 
     private LineRenderer lr;
     // Start is called before the first frame update
