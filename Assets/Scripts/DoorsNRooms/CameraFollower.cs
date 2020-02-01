@@ -13,21 +13,25 @@ public class CameraFollower : MonoBehaviour
         Vector3 cam_pos = transform.position;
         Vector3 player_pos = PlayerState.instance.transform.position;
         
-        if (!room.isCameraBoundedHorizontally(player_pos.x, freeZoneSizeX)) {
+        // if (!room.isCameraBoundedHorizontally(player_pos.x, freeZoneSizeX)) {
             if (player_pos.x - cam_pos.x < -freeZoneSizeX) {
                 cam_pos.x = player_pos.x + freeZoneSizeX;
             } else if (player_pos.x - cam_pos.x > freeZoneSizeX) {
                 cam_pos.x = player_pos.x - freeZoneSizeX;
             }
-        }
-        if (!room.isCameraBoundedVertically(player_pos.y, freeZoneSizeY)) {
+        // }
+        // if (!room.isCameraBoundedVertically(player_pos.y, freeZoneSizeY)) {
             if (player_pos.y - cam_pos.y < -freeZoneSizeY) {
                 cam_pos.y = player_pos.y + freeZoneSizeY;
             } else if (player_pos.y - cam_pos.y > freeZoneSizeY) {
                 cam_pos.y = player_pos.y - freeZoneSizeY;
             }
-        }
+        // }
         transform.position = cam_pos;
+        // Vector3 cam_pos = transform.position;
+        // cam_pos.x = PlayerState.instance.transform.position.x;
+        // cam_pos.y = PlayerState.instance.transform.position.y;
+        // transform.position = cam_pos;
     }
 
     public void changeRoomTo(RoomInfo new_room) {

@@ -8,7 +8,7 @@ public class Takedamage : MonoBehaviour
     public float spriteBlinkingMiniDuration = .1f;
     public float spriteStunDuration = .2f;
     public float spriteInertiaDuration = 1f;
-    public int spriteBlinkingTimes = 5;
+    public int spriteBlinkingTimes = 3;
     public float knockBackPower = 50;
     private float inlavaTime = 0;
     private void OnTriggerEnter(Collider other) {

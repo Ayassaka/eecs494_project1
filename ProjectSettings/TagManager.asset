@@ -15,6 +15,7 @@ TagManager:
   - MorphBallPowerUp
   - Wall
   - Lava
+  - transport
   layers:
   - Default
   - TransparentFX

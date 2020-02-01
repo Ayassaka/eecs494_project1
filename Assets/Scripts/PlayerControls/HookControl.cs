@@ -15,7 +15,7 @@ public class HookControl : MonoBehaviour
     bool will_hit = false;
     Vector3 hit_pos;
     bool isSwinging = true;
-
+    private Collider cl;
     private void Awake() {
         rb = GetComponent<Rigidbody>();
         prb = PlayerState.instance.gameObject.GetComponent<Rigidbody>();
@@ -38,10 +38,13 @@ public class HookControl : MonoBehaviour
         will_hit = Physics.Raycast(rb.position, direction, out hitInfo, length, hookable);
         if (will_hit) {
             hit_pos = hitInfo.point;
+            cl = hitInfo.collider;
+            if (cl.gameObject.CompareTag("transport")) {
+                cl.gameObject.GetComponent<TransportControl>().startMoving();
+            }
         } else {
             hit_pos = rb.position + direction * length;
         }
-        
         isSwinging = false;
     }
     private void start_swing() {
@@ -62,13 +65,20 @@ public class HookControl : MonoBehaviour
         isSwinging = true;
     }
 
+    private void Swinging() {
+        Debug.Log("swing");
+        cj.anchor = - (Quaternion.Inverse(parb.rotation) * (parb.position - rb.position));
+        cj.connectedAnchor = rb.position;
+    }
     void Update()
     {
         // Debug.Log("Update.");
-        if (Input.GetKeyUp(KeyCode.Z)) {
-            gameObject.SetActive(false);
-        }
+        
         if (isSwinging) {
+            Vector3 curroffset = cl.transform.position - rb.position;
+            rb.position = cl.transform.position;
+            parb.position += curroffset;
+            Swinging();
             prb.position = parb.position;
         } else {
             if (rb.position.y > hit_pos.y) {
@@ -78,6 +88,9 @@ public class HookControl : MonoBehaviour
                     gameObject.SetActive(false);
                 }
             }
+        }
+        if (Input.GetKeyUp(KeyCode.Z)) {
+            gameObject.SetActive(false);
         }
     }
 
