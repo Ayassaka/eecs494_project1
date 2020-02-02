@@ -16,6 +16,7 @@ public class HookControl : MonoBehaviour
     Vector3 hit_pos;
     bool isSwinging = true;
     private Collider cl;
+    Vector3 connectedOffset;
     private void Awake() {
         rb = GetComponent<Rigidbody>();
         prb = PlayerState.instance.gameObject.GetComponent<Rigidbody>();
@@ -39,9 +40,6 @@ public class HookControl : MonoBehaviour
         if (will_hit) {
             hit_pos = hitInfo.point;
             cl = hitInfo.collider;
-            if (cl.gameObject.CompareTag("transport")) {
-                cl.gameObject.GetComponent<TransportControl>().startMoving();
-            }
         } else {
             hit_pos = rb.position + direction * length;
         }
@@ -57,6 +55,7 @@ public class HookControl : MonoBehaviour
         prb.isKinematic = true;
         cj.anchor = - (Quaternion.Inverse(parb.rotation) * (parb.position - rb.position));
         cj.connectedAnchor = rb.position;
+        connectedOffset = cl.transform.position - rb.position;
 
         cj.xMotion = ConfigurableJointMotion.Locked;
         cj.yMotion = ConfigurableJointMotion.Locked;
@@ -66,7 +65,7 @@ public class HookControl : MonoBehaviour
     }
 
     private void Swinging() {
-        cj.anchor = - (Quaternion.Inverse(parb.rotation) * (parb.position - rb.position));
+        // cj.anchor = - (Quaternion.Inverse(parb.rotation) * (parb.position - rb.position));
         cj.connectedAnchor = rb.position;
     }
     void Update()
@@ -74,8 +73,8 @@ public class HookControl : MonoBehaviour
         // Debug.Log("Update.");
         
         if (isSwinging) {
-            Vector3 curroffset = cl.transform.position - rb.position;
-            rb.position = cl.transform.position;
+            Vector3 curroffset = cl.transform.position - (rb.position + connectedOffset);
+            rb.position = cl.transform.position - connectedOffset;
             parb.position += curroffset;
             Swinging();
             prb.position = parb.position;
@@ -83,6 +82,9 @@ public class HookControl : MonoBehaviour
             if (rb.position.y > hit_pos.y) {
                 if (will_hit) {
                     start_swing();
+                    if (cl.gameObject.CompareTag("transport")) {
+                        cl.gameObject.GetComponent<TransportControl>().startMoving();
+                    }
                 } else {
                     gameObject.SetActive(false);
                 }
