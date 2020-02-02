@@ -9,7 +9,7 @@ public class TargetControl : MonoBehaviour
     public float horizontaldistance;
     private float startposx;
     private float endposx;
-    public float speed = 3;
+    public float speed;
     void Start()
     {
         rb = GetComponent<Rigidbody>();

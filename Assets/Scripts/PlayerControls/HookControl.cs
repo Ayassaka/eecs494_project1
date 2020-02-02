@@ -66,7 +66,6 @@ public class HookControl : MonoBehaviour
     }
 
     private void Swinging() {
-        Debug.Log("swing");
         cj.anchor = - (Quaternion.Inverse(parb.rotation) * (parb.position - rb.position));
         cj.connectedAnchor = rb.position;
     }
