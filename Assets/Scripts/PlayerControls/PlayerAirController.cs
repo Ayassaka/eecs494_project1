@@ -43,7 +43,7 @@ public class PlayerAirController : MonoBehaviour
             rigid.velocity = newVelocity;
         }
 
-        if (!isRising && PlayerState.instance.isControlable() && Input.GetKeyDown(KeyCode.Z)) {
+        if (!isRising && PlayerState.instance.hasHook && PlayerState.instance.isControlable() && Input.GetKeyDown(KeyCode.Z)) {
             hook.SetActive(true);
             isRolling = false;
             roll_height = float.PositiveInfinity;

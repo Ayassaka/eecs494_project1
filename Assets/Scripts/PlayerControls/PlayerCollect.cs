@@ -11,6 +11,8 @@ public class PlayerCollect : MonoBehaviour
             PlayerState.instance.hasLongBeam = true;
         } else if (other.CompareTag("MissilePowerUp" )) {
             PlayerState.instance.hasMissile = true;
+        } else if (other.CompareTag("HookPowerUp" )) {
+            PlayerState.instance.hasHook = true;
         } else if (other.CompareTag("MorphBallPowerUp" )) {
             PlayerState.instance.hasMorphBall = true;
         } else if (other.CompareTag("healthPickUp" )) {

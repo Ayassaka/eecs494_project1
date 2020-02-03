@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4520d7ac2e9d5fa4f921dceb0e2c715a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stunColor: {r: 0, g: 0, b: 0, a: 0}
+  stunColor: {r: 0.5849056, g: 0, b: 0, a: 1}
 --- !u!114 &1424959897194533693
 MonoBehaviour:
   m_ObjectHideFlags: 0

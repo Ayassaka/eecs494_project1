@@ -16,6 +16,7 @@ TagManager:
   - Wall
   - Lava
   - transport
+  - HookPowerUp
   layers:
   - Default
   - TransparentFX

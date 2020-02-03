@@ -5,9 +5,7 @@ using UnityEngine;
 public class Gizmo : MonoBehaviour
 {
     private void OnDrawGizmos() {
-        Collider col = this.GetComponent<Collider>();
-        float radius = col.bounds.extents.x - 0.05f;
-        float fullDistance = 0.05f;
-        Gizmos.DrawSphere(col.bounds.center - new Vector3(0, fullDistance, 0), radius);
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(transform.position, .5f);
     }
 }

@@ -13,5 +13,9 @@ public class lowhealthsound : MonoBehaviour
             aud.loop = true;
             aud.Play();
         }
+        if (PlayerState.instance.health > 8 && aud.loop == true) {
+            aud.loop = true;
+            aud.Stop();
+        }
     }
 }

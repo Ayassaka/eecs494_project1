@@ -6,9 +6,10 @@ public class RipperControl : MonoBehaviour
 {
     private Rigidbody rb;
     public LayerMask WallLayer;
+    public float speed = 1.5f;
     void Start() {
         rb = GetComponent<Rigidbody>();
-        rb.velocity = new Vector3(-1, 0, 0);
+        rb.velocity = new Vector3(-speed, 0, 0);
     }
     /*
     private void OnTriggerEnter(Collider other) {
@@ -22,7 +23,7 @@ public class RipperControl : MonoBehaviour
     }
     */
     private void Update() {
-        if (Physics.Raycast(this.transform.position, Vector3.left * gameObject.transform.localScale.x, .4f, WallLayer)) {
+        if (Physics.Raycast(this.transform.position, Vector3.left * gameObject.transform.localScale.x, .5f, WallLayer)) {
             Transform obj = GetComponent<Transform>();
             Vector3 newVec = obj.localScale;
             newVec.x = -newVec.x;

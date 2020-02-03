@@ -21,6 +21,7 @@ public class PlayerState : MonoBehaviour
     public static PlayerState instance;
     public bool hasLongBeam = false;
     public bool hasMissile = false;
+    public bool hasHook = false;
     public bool hasMorphBall = false;
     public bool MissileMode = false;
     public int health = 30;
@@ -39,12 +40,20 @@ public class PlayerState : MonoBehaviour
     {   
         // God Mode
         if (Input.GetKeyDown(KeyCode.Alpha1)) {
-            isGodMode = true;
-            max_missile = 99;
+            isGodMode = !isGodMode;
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2)) {
             gainMissile(max_missile);
+            gainHealth(max_health);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3)) {
             hasLongBeam = true;
-            hasMissile = true;
             hasMorphBall = true;
+            hasMissile = true;
+            hasHook = true;
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha4)) {
+            SceneManager.LoadScene("ExtraScene");
         }
     }
 

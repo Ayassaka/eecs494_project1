@@ -96,12 +96,14 @@ public class HookControl : MonoBehaviour
     }
 
     private void OnDisable() {
-        prb.isKinematic = false;
-        prb.velocity = parb.velocity;
-        parb.isKinematic = true;
-        cj.xMotion = ConfigurableJointMotion.Free;
-        cj.yMotion = ConfigurableJointMotion.Free;
-        cj.zMotion = ConfigurableJointMotion.Free;
+        if (isSwinging) {
+            prb.isKinematic = false;
+            prb.velocity = parb.velocity;
+            parb.isKinematic = true;
+            cj.xMotion = ConfigurableJointMotion.Free;
+            cj.yMotion = ConfigurableJointMotion.Free;
+            cj.zMotion = ConfigurableJointMotion.Free;
+        }
     }
     private void OnDrawGizmos() {
         Gizmos.color = Color.black;

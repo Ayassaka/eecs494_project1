@@ -451,7 +451,7 @@ TextureImporter:
     second: NES - Metroid - Items & Objects_148
   - first:
       213: 7284648708313596115
-    second: NES - Metroid - Items & Objects_149
+    second: Hook hint
   - first:
       213: 1962603865190385074
     second: NES - Metroid - Items & Objects_150
@@ -511,7 +511,7 @@ TextureImporter:
     second: NES - Metroid - Items & Objects_168
   - first:
       213: 7109872597599936036
-    second: NES - Metroid - Items & Objects_169
+    second: End text1
   - first:
       213: -6106017293189467243
     second: NES - Metroid - Items & Objects_170
@@ -565,10 +565,13 @@ TextureImporter:
     second: NES - Metroid - Items & Objects_186
   - first:
       213: -1431839591818470237
-    second: NES - Metroid - Items & Objects_187
+    second: End text2
   - first:
       213: -479865587470428009
     second: NES - Metroid - Items & Objects_7
+  - first:
+      213: 6292394223488817270
+    second: Hook pickup
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -3794,13 +3797,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - Metroid - Items & Objects_149
+      name: Hook hint
       rect:
         serializedVersion: 2
-        x: 1
-        y: 67
-        width: 32
-        height: 8
+        x: 4
+        y: 61
+        width: 215
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4214,13 +4217,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - Metroid - Items & Objects_169
+      name: End text1
       rect:
         serializedVersion: 2
-        x: 147
-        y: 55
-        width: 7
-        height: 7
+        x: 130
+        y: 35
+        width: 82
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4592,13 +4595,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - Metroid - Items & Objects_187
+      name: End text2
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 224
-        height: 32
+        x: 18
+        y: 9
+        width: 219
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4621,7 +4624,7 @@ TextureImporter:
         width: 9
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4629,6 +4632,27 @@ TextureImporter:
       bones: []
       spriteID: bee23ac211f33824899b45c217e72cc0
       internalID: -479865587470428009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hook pickup
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a544e3d67e5fd94680a8efa4f585d26
+      internalID: 6292394223488817270
       vertices: []
       indices: 
       edges: []
